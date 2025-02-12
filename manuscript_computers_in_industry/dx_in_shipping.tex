@@ -53,9 +53,84 @@
 	\section{Methodology}
 	You can describe your approach, methods, or framework here.
 	
-	\subsection{Data}
+	\subsection{Keyword identification and data collection}
+	We asked experts in the shipping industry to identify the most relevant keywords related to the industry itself and to digital technologies and digital transformation. Their analysis resulted in 35 keywords, listed in Table \ref{tab:keywords}.
 	
-	\subsection{Analysis}
+	\begin{table}[h]
+		\centering
+		\caption{List of keywords identified by experts.}
+		\begin{tabular}{l c}
+			\hline
+			Keyword& Type (Digit. Trans. or Shipping) \\
+			\hline
+			Digital transformation & Digit. Trans. \\
+			Digital innovation & Digit. Trans. \\
+			Digital ecosystems & Digit. Trans. \\
+			Digitization & Digit. Trans. \\
+			Digitalization & Digit. Trans. \\
+			Digital platforms & Digit. Trans. \\
+			Industry 4.0 & Digit. Trans. \\
+			Smart technologies & Digit. Trans. \\
+			Data-driven transformation & Digit. Trans. \\
+			Automation & Digit. Trans. \\
+			Internet of Things & Digit. Trans. \\
+			Blockchain & Digit. Trans. \\
+			Data analysis & Digit. Trans. \\
+			Artificial intelligence & Digit. Trans. \\
+			Machine learning & Digit. Trans. \\
+			Big data & Digit. Trans. \\
+			Cloud computing & Digit. Trans. \\
+			Cyber-physical systems & Digit. Trans. \\
+			Digital twins & Digit. Trans. \\
+			Edge computing & Digit. Trans. \\
+			5G networks & Digit. Trans. \\
+			Predictive analytics & Digit. Trans. \\
+			Cybersecurity & Digit. Trans. \\
+			Supply chain integration & Digit. Trans. \\
+			shipping & Shipping \\
+			maritime & Shipping \\
+			Sea freight & Shipping \\
+			Smart ports & Shipping \\
+			Autonomous ships & Shipping \\
+			Fleet management & Shipping \\
+			Cargo tracking & Shipping \\
+			Digital shipyards & Shipping \\
+			Port digitalization & Shipping \\
+			Port automation & Shipping \\
+			Vessel performance & Shipping \\
+			\hline
+		\end{tabular}
+		\label{tab:keywords}
+	\end{table}
+	
+	Data was collected from three research engines: EBSCO \citep{vaughan2011ebsco}, ProQuest \citep{cooke2017proquest}, and IEEE eXplore \citep{wilde2016ieee}. The search was performed on October the 22nd 2024. For each engine, we retrieved scientific articles containing any of the digital transformation related keywords and any of the shipping industry related keywords, in either their title or abstract. The exact query for each engine are available on request. We limited our results using the following criteria: \(a\) only English literature, and \(b\) only scientific contributions published in peer-reviewed journals. Table \ref{tab:searchres} shows the results.
+	
+	\begin{table}[h]
+		\centering
+		\caption{Number of retrieved articles per research engine.}
+		\begin{tabular}{l c}
+			\hline
+			Engine & No. of scientific articles \\
+			\hline
+			EBSCO & 1904 \\
+			ProQuest & 2011 \\
+			IEEE eXplore & 300 \\
+			\hline
+		\end{tabular}
+		\label{tab:searchres}
+	\end{table}
+	
+	All search engines provided the digital object identifier for the articles. This allowed us to screen the resulting set and identify 2324 unique articles for the subsequent analysis. One challenge of using different data engines is the variety of attributes they return for each article. In order to have the same information for each article, we queried a fourth search engine for all the 2324 articles. We chose OpenAlex \citep{priem2022openalex}, which has been shown to be suitable for bibliometric analysis \citep{alperin2024analysis}. Our final result set comprised 2293 scientific publications.
+	
+	\subsection{Descriptive Statistics}
+	We started our analysis evaluating descriptive statistics across our article set. More specifically, we calculated:
+	\begin{enumerate}
+		\item the distribution of the number of publications per year;
+		\item the distribution of publications across authors, identifying the most prolific authors;
+		\item the distribution of publications across institutions, identifying the research centers with the highest number of publications;
+		\item the distribution of publications across countries.
+	\end{enumerate}
+	
 	
 	\section{Results}
 	Present any results, tables, or figures.

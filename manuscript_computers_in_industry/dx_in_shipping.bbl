@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{5}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -11,5 +11,39 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Alperin et~al.(2024)Alperin, Portenoy, Demes, Larivi{\`e}re and
+  Haustein}]{alperin2024analysis}
+\bibinfo{author}{Alperin, J.P.}, \bibinfo{author}{Portenoy, J.},
+  \bibinfo{author}{Demes, K.}, \bibinfo{author}{Larivi{\`e}re, V.},
+  \bibinfo{author}{Haustein, S.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{An analysis of the suitability of openalex for
+  bibliometric analyses}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2404.17663} .
+%Type = Article
+\bibitem[{Cooke(2017)}]{cooke2017proquest}
+\bibinfo{author}{Cooke, R.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Proquest ebook central}.
+\newblock \bibinfo{journal}{The Charleston Advisor} \bibinfo{volume}{19},
+  \bibinfo{pages}{39--43}.
+%Type = Article
+\bibitem[{Priem et~al.(2022)Priem, Piwowar and Orr}]{priem2022openalex}
+\bibinfo{author}{Priem, J.}, \bibinfo{author}{Piwowar, H.},
+  \bibinfo{author}{Orr, R.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Openalex: A fully-open index of scholarly works,
+  authors, venues, institutions, and concepts}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2205.01833} .
+%Type = Article
+\bibitem[{Vaughan(2011)}]{vaughan2011ebsco}
+\bibinfo{author}{Vaughan, J.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Ebsco discovery services}.
+\newblock \bibinfo{journal}{Library Technology Reports} \bibinfo{volume}{47},
+  \bibinfo{pages}{30--38}.
+%Type = Article
+\bibitem[{Wilde(2016)}]{wilde2016ieee}
+\bibinfo{author}{Wilde, M.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Ieee xplore digital library}.
+\newblock \bibinfo{journal}{The Charleston Advisor} \bibinfo{volume}{17},
+  \bibinfo{pages}{24--30}.
 
 \end{thebibliography}

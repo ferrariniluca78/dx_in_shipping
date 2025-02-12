@@ -1,0 +1,62 @@
+\begin{table}[h]
+\centering
+\caption{List of keywords identified by experts.}
+\begin{tabular}{l c}
+\hline
+Keyword& Type (Digit. Trans. or Shipping) \\
+\hline
+Digital transformation & Digit. Trans. \\
+Digital innovation & Digit. Trans. \\
+Digital ecosystems & Digit. Trans. \\
+Digitization & Digit. Trans. \\
+Digitalization & Digit. Trans. \\
+Digital platforms & Digit. Trans. \\
+Industry 4.0 & Digit. Trans. \\
+Smart technologies & Digit. Trans. \\
+Data-driven transformation & Digit. Trans. \\
+Automation & Digit. Trans. \\
+Internet of Things & Digit. Trans. \\
+Blockchain & Digit. Trans. \\
+Data analysis & Digit. Trans. \\
+Artificial intelligence & Digit. Trans. \\
+Machine learning & Digit. Trans. \\
+Big data & Digit. Trans. \\
+Cloud computing & Digit. Trans. \\
+Cyber-physical systems & Digit. Trans. \\
+Digital twins & Digit. Trans. \\
+Edge computing & Digit. Trans. \\
+5G networks & Digit. Trans. \\
+Predictive analytics & Digit. Trans. \\
+Cybersecurity & Digit. Trans. \\
+Supply chain integration & Digit. Trans. \\
+shipping & Shipping \\
+maritime & Shipping \\
+Sea freight & Shipping \\
+Smart ports & Shipping \\
+Autonomous ships & Shipping \\
+Fleet management & Shipping \\
+Cargo tracking & Shipping \\
+Digital shipyards & Shipping \\
+Port digitalization & Shipping \\
+Port automation & Shipping \\
+Vessel performance & Shipping \\
+\hline
+\end{tabular}
+\label{tab:keywords}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\centering
+\caption{Number of retrieved articles per research engine.}
+\begin{tabular}{l c}
+\hline
+Engine & No. of scientific articles \\
+\hline
+EBSCO & 1904 \\
+ProQuest & 2011 \\
+IEEE eXplore & 300 \\
+\hline
+\end{tabular}
+\label{tab:searchres}
+\end{table}

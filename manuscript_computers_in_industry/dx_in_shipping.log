@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.20)  12 FEB 2025 08:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.20)  12 FEB 2025 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -378,62 +378,73 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 63.
+(hyperref)                removing `\<def>-command' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cnotenum' on input line 63.
+(hyperref)                removing `\cnotenum' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 63.
+(hyperref)                removing `\<def>-command' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@corref' on input line 63.
+(hyperref)                removing `\@corref' on input line 58.
 
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./dx_in_shipping.bbl
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout5 = `dx_in_shipping.ttt'.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 15.
+ (dx_in_shipping.ttt)
+[2] (./dx_in_shipping.bbl) AED endfloat: Processing end Figures and Tables
+[3] (./dx_in_shipping.lot)
+\tf@lot=\write7
+\openout7 = `dx_in_shipping.lot'.
 
-) AED endfloat: Processing end Figures and Tables [2] (./dx_in_shipping.aux)
+ [4
+
+
+] (./dx_in_shipping.ttt [5
+
+]) [6
+
+]
+(./dx_in_shipping.aux)
 
 Package rerunfilecheck Warning: File `dx_in_shipping.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `dx_in_shipping.out':
-(rerunfilecheck)             Before: 4B0A5EFB4E9978CC7079DDFD30EA0494;659
-(rerunfilecheck)             After:  C535CFCEE5C8D664D71BDB59F9E3FE5A;770.
+(rerunfilecheck)             Before: F783B832CEF926F8616C971754A7620F;972
+(rerunfilecheck)             After:  2C17915B66E98279DA35146B150F712B;1040.
  ) 
 Here is how much of TeX's memory you used:
- 10143 strings out of 480171
- 156709 string characters out of 5894489
- 453276 words of memory out of 5000000
- 27962 multiletter control sequences out of 15000+600000
+ 10199 strings out of 480171
+ 157642 string characters out of 5894489
+ 453618 words of memory out of 5000000
+ 27997 multiletter control sequences out of 15000+600000
  473639 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 70i,9n,76p,489b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.7} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti8.pfb>
-Output written on dx_in_shipping.pdf (2 pages, 126902 bytes).
+ 70i,9n,76p,710b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8
+.pfb>
+Output written on dx_in_shipping.pdf (6 pages, 150613 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
