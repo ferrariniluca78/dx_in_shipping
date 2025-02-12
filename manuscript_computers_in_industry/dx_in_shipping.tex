@@ -122,7 +122,7 @@
 	
 	All search engines provided the digital object identifier for the articles. This allowed us to screen the resulting set and identify 2324 unique articles for the subsequent analysis. One challenge of using different data engines is the variety of attributes they return for each article. In order to have the same information for each article, we queried a fourth search engine for all the 2324 articles. We chose OpenAlex \citep{priem2022openalex}, which has been shown to be suitable for bibliometric analysis \citep{alperin2024analysis}. Our final result set comprised 2293 scientific publications.
 	
-	\subsection{Descriptive Statistics}
+	\subsection{Descriptive statistics}
 	We started our analysis evaluating descriptive statistics across our article set. More specifically, we calculated:
 	\begin{enumerate}
 		\item the distribution of the number of publications per year;
@@ -165,7 +165,82 @@
 	We concluded our thematic analysis by building two word clouds. Using both titles and abstracts from all articles, we applied the TF-IDF algorithm to each word and use it as weight when building the clouds. The first cloud was built over the entire set of words in titles and abstracts, while the second cloud was built after removing all shipping related terms (hence focusing on the digital technologies only).
 	
 	\section{Results}
-	Present any results, tables, or figures.
+	In this section we present the results of our analysis. We then discuss them in the next section.
+	
+	\subsection{Descriptive statistics}
+	Figure [XXX] shows the distribution of articles across years. Altough the first publications are dates as back as the 1960s, only from the year 2005 we witness an increasing interest in the effects of digital transformation within the shipping and maritime industry. The number of publication increased minimally and not steadily between 2005 and 2015. From 2015 onwards, we witness an exponential increase in the number of publications. After reaching a peak in 2023, the trend seem to have stabilized. Considering that our data was collected at the end of October 2024, we can reasonably argue that the year 2024 has not witnessed a signficant increase of publication, compared to the previous year.
+	
+	Figures [XXX]-[XXX] show the top 20 authors, the top 20 institutes, and the top 20 countries in terms of number of publications. Considering the authors, we note how the 0.03\% of all authors in our cohort (20 out of 7723) cover over 2.9\% of the total publications, suggesting a skewed distriution of publications across authors. When looking at the top insititutes, we see they cover over 21\% of the total publications (see Table \ref{tab:resdescinst}), while the top 5 countries cover up to 50\% of total publications (see Table \ref{tab:resdesccountry}). Looking deeper into the top insitute, one can notice how many of those Universityies have strong historical bindings with the sea. Consider, as examples, the Dalian Maritime University, the Shangai Maritime Univerity, and the Delft Technical University. Similarly, looking at the most rapresentative countries one can see they all have strong maritime industry and economy.
+	
+	\begin{table}[h]
+		\centering
+		\caption{Distribution of publications across institutions.}
+		\begin{tabular}{r c c c}
+			\hline
+			Institution & No. of publications & Cumulative \% & \% Of total \\
+			\hline
+			Dalian Maritime University & 70 & 3.48 & 3.48\\
+			Wuhan University of Technology & 44 & 5.67 & 2.19\\
+			Norwegian University of Science and Technology & 44 & 7.86 & 2.19\\
+			Shanghai Maritime University & 41 & 9.90 & 2.04\\
+			Nanyang Technological University & 30 & 11.39 & 1.50\\
+			University of Rijeka & 23 & 12.53 & 1.14\\
+			Hong Kong Polytechnic University & 17 & 13.38 & 0.85\\
+			University of Strathclyde & 16 & 14.17 & 0.80\\
+			University of Piraeus & 15 & 14.92 & 0.75\\
+			Liverpool John Moores University & 14 & 15.61 & 0.70\\
+			Istanbul Technical University & 13 & 16.26 & 0.65\\
+			Tsinghua University & 13 & 16.91 & 0.65\\
+			Delft University of Technology & 12 & 17.50 & 0.60\\
+			Universidad Politécnica de Madrid & 12 & 18.10 & 0.60\\
+			Korea Maritime and Ocean University & 11 & 18.65 & 0.55\\
+			Zhejiang Ocean University & 11 & 19.19 & 0.55\\
+			University of Genoa & 11 & 19.74 & 0.55\\
+			National Technical University of Athens & 11 & 20.29 & 0.55\\
+			University of South-Eastern Norway & 10 & 20.79 & 0.50\\
+			Aalto University & 10 & 21.28 & 0.50\\
+			\hline
+		\end{tabular}
+		\label{tab:resdescinst}
+	\end{table}
+
+	\begin{table}[h]
+		\centering
+		\caption{Distribution of publications across countries.}
+		\begin{tabular}{r c c c}
+			\hline
+			Country ISO & No. of publications & Cumulative \% & \% Of total \\
+			\hline
+			CN & 487 & 24.29 & 24.29\\
+			US & 138 & 31.17 & 6.88\\
+			GB & 107 & 36.51 & 5.34\\
+			KR & 96 & 41.30 & 4.79\\
+			NO & 95 & 46.03 & 4.73\\
+			GR & 66 & 49.33 & 3.29\\
+			IN & 59 & 52.27 & 2.94\\
+			ES & 58 & 55.16 & 2.89\\
+			IT & 54 & 57.86 & 2.69\\
+			SG & 54 & 60.55 & 2.69\\
+			DE & 50 & 63.04 & 2.49\\
+			CA & 47 & 65.39 & 2.34\\
+			ID & 42 & 67.48 & 2.09\\
+			AU & 40 & 69.48 & 2.00\\
+			HR & 39 & 71.42 & 1.95\\
+			PL & 38 & 73.32 & 1.90\\
+			TR & 36 & 75.11 & 1.80\\
+			SE & 30 & 76.61 & 1.50\\
+			FI & 29 & 78.05 & 1.45\\
+			JP & 26 & 79.35 & 1.30\\
+			\hline
+		\end{tabular}
+		\label{tab:resdesccountry}
+	\end{table}
+
+	\subsection{Co-authorship network analysis}
+	
+	\subsection{Co-citation network analysis}
+	
+	\subsection{Thematic analysis}
 	
 	\section{Discussion}
 	

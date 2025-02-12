@@ -60,3 +60,69 @@ IEEE eXplore & 300 \\
 \end{tabular}
 \label{tab:searchres}
 \end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\centering
+\caption{Distribution of publications across institutions.}
+\begin{tabular}{r c c c}
+\hline
+Institution & No. of publications & Cumulative \% & \% Of total \\
+\hline
+Dalian Maritime University & 70 & 3.48 & 3.48\\
+Wuhan University of Technology & 44 & 5.67 & 2.19\\
+Norwegian University of Science and Technology & 44 & 7.86 & 2.19\\
+Shanghai Maritime University & 41 & 9.90 & 2.04\\
+Nanyang Technological University & 30 & 11.39 & 1.50\\
+University of Rijeka & 23 & 12.53 & 1.14\\
+Hong Kong Polytechnic University & 17 & 13.38 & 0.85\\
+University of Strathclyde & 16 & 14.17 & 0.80\\
+University of Piraeus & 15 & 14.92 & 0.75\\
+Liverpool John Moores University & 14 & 15.61 & 0.70\\
+Istanbul Technical University & 13 & 16.26 & 0.65\\
+Tsinghua University & 13 & 16.91 & 0.65\\
+Delft University of Technology & 12 & 17.50 & 0.60\\
+Universidad Politécnica de Madrid & 12 & 18.10 & 0.60\\
+Korea Maritime and Ocean University & 11 & 18.65 & 0.55\\
+Zhejiang Ocean University & 11 & 19.19 & 0.55\\
+University of Genoa & 11 & 19.74 & 0.55\\
+National Technical University of Athens & 11 & 20.29 & 0.55\\
+University of South-Eastern Norway & 10 & 20.79 & 0.50\\
+Aalto University & 10 & 21.28 & 0.50\\
+\hline
+\end{tabular}
+\label{tab:resdescinst}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\centering
+\caption{Distribution of publications across countries.}
+\begin{tabular}{r c c c}
+\hline
+Country ISO & No. of publications & Cumulative \% & \% Of total \\
+\hline
+CN & 487 & 24.29 & 24.29\\
+US & 138 & 31.17 & 6.88\\
+GB & 107 & 36.51 & 5.34\\
+KR & 96 & 41.30 & 4.79\\
+NO & 95 & 46.03 & 4.73\\
+GR & 66 & 49.33 & 3.29\\
+IN & 59 & 52.27 & 2.94\\
+ES & 58 & 55.16 & 2.89\\
+IT & 54 & 57.86 & 2.69\\
+SG & 54 & 60.55 & 2.69\\
+DE & 50 & 63.04 & 2.49\\
+CA & 47 & 65.39 & 2.34\\
+ID & 42 & 67.48 & 2.09\\
+AU & 40 & 69.48 & 2.00\\
+HR & 39 & 71.42 & 1.95\\
+PL & 38 & 73.32 & 1.90\\
+TR & 36 & 75.11 & 1.80\\
+SE & 30 & 76.61 & 1.50\\
+FI & 29 & 78.05 & 1.45\\
+JP & 26 & 79.35 & 1.30\\
+\hline
+\end{tabular}
+\label{tab:resdesccountry}
+\end{table}
