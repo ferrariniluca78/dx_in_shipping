@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{12}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -21,11 +21,65 @@
   bibliometric analyses}.
 \newblock \bibinfo{journal}{arXiv preprint arXiv:2404.17663} .
 %Type = Article
+\bibitem[{Blondel et~al.(2008)Blondel, Guillaume, Lambiotte and
+  Lefebvre}]{blondel2008fast}
+\bibinfo{author}{Blondel, V.D.}, \bibinfo{author}{Guillaume, J.L.},
+  \bibinfo{author}{Lambiotte, R.}, \bibinfo{author}{Lefebvre, E.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Fast unfolding of communities in large networks}.
+\newblock \bibinfo{journal}{Journal of statistical mechanics: theory and
+  experiment} \bibinfo{volume}{2008}, \bibinfo{pages}{P10008}.
+%Type = Article
+\bibitem[{Cali{\'n}ski and Harabasz(1974)}]{calinski1974dendrite}
+\bibinfo{author}{Cali{\'n}ski, T.}, \bibinfo{author}{Harabasz, J.},
+  \bibinfo{year}{1974}.
+\newblock \bibinfo{title}{A dendrite method for cluster analysis}.
+\newblock \bibinfo{journal}{Communications in Statistics-theory and Methods}
+  \bibinfo{volume}{3}, \bibinfo{pages}{1--27}.
+%Type = Article
 \bibitem[{Cooke(2017)}]{cooke2017proquest}
 \bibinfo{author}{Cooke, R.}, \bibinfo{year}{2017}.
 \newblock \bibinfo{title}{Proquest ebook central}.
 \newblock \bibinfo{journal}{The Charleston Advisor} \bibinfo{volume}{19},
   \bibinfo{pages}{39--43}.
+%Type = Article
+\bibitem[{Cui et~al.(2020)}]{cui2020introduction}
+\bibinfo{author}{Cui, M.}, et~al., \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Introduction to the k-means clustering algorithm
+  based on the elbow method}.
+\newblock \bibinfo{journal}{Accounting, Auditing and Finance}
+  \bibinfo{volume}{1}, \bibinfo{pages}{5--8}.
+%Type = Article
+\bibitem[{Davies and Bouldin(1979)}]{davies1979cluster}
+\bibinfo{author}{Davies, D.L.}, \bibinfo{author}{Bouldin, D.W.},
+  \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{A cluster separation measure}.
+\newblock \bibinfo{journal}{IEEE transactions on pattern analysis and machine
+  intelligence} , \bibinfo{pages}{224--227}.
+%Type = Article
+\bibitem[{Devlin et~al.(2018)Devlin, Chang, Lee and Toutanova}]{devlin2018bert}
+\bibinfo{author}{Devlin, J.}, \bibinfo{author}{Chang, M.W.},
+  \bibinfo{author}{Lee, K.}, \bibinfo{author}{Toutanova, K.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Bert: Pre-training of deep bidirectional transformers
+  for language understanding}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1810.04805} .
+%Type = Techreport
+\bibitem[{Hagberg et~al.(2008)Hagberg, Swart and Schult}]{hagberg2008exploring}
+\bibinfo{author}{Hagberg, A.}, \bibinfo{author}{Swart, P.J.},
+  \bibinfo{author}{Schult, D.A.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Exploring network structure, dynamics, and function
+  using NetworkX}.
+\newblock \bibinfo{type}{Technical Report}. Los Alamos National Laboratory
+  (LANL), Los Alamos, NM (United States).
+%Type = Article
+\bibitem[{Paul et~al.()Paul, Rahman, Begum, Ahmed, Chakraborty and
+  Rahman}]{paulcombining}
+\bibinfo{author}{Paul, P.C.}, \bibinfo{author}{Rahman, M.},
+  \bibinfo{author}{Begum, A.}, \bibinfo{author}{Ahmed, M.T.},
+  \bibinfo{author}{Chakraborty, D.}, \bibinfo{author}{Rahman, M.S.}, .
+\newblock \bibinfo{title}{Combining bert with lda: Improved topic modeling in
+  bengali language} .
 %Type = Article
 \bibitem[{Priem et~al.(2022)Priem, Piwowar and Orr}]{priem2022openalex}
 \bibinfo{author}{Priem, J.}, \bibinfo{author}{Piwowar, H.},

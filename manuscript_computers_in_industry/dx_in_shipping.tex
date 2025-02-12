@@ -1,5 +1,5 @@
-%\documentclass[a4paper, review, endfloat, doubleblind]{elsarticle}
-\documentclass[a4paper, review, endfloat]{elsarticle}
+%\documentclass[a4paper, review, endfloat, doubleblind, authoryear]{elsarticle}
+\documentclass[a4paper, review, endfloat, authoryear]{elsarticle}
 
 % Packages (optional)
 \usepackage{amsmath}  % For mathematical symbols
@@ -51,7 +51,7 @@
 	\section{Literature Review}
 	
 	\section{Methodology}
-	You can describe your approach, methods, or framework here.
+	In this section we describe the methodology we followed for the data collection and analysis. Fig. [XXX] shows the overall methodology discussed in this section. Results and implications are discussed in further sections.
 	
 	\subsection{Keyword identification and data collection}
 	We asked experts in the shipping industry to identify the most relevant keywords related to the industry itself and to digital technologies and digital transformation. Their analysis resulted in 35 keywords, listed in Table \ref{tab:keywords}.
@@ -131,6 +131,38 @@
 		\item the distribution of publications across countries.
 	\end{enumerate}
 	
+	\subsection{Co-authorship network analysis}
+	As a second step, we built and analyzed the network of co-authorship. Network analysis was performed in Python, using the NetworkX package \citep{hagberg2008exploring}. We identified 7723 distinct authors. We built the network using authors as nodes, and setting bi-directional links between them if there existed at least one publication that they co-authored. For each link, we stored within the graph object information about the authors institutes and countries for further analysis.
+	
+	Figure XXX shows the degree distribution of the co-authorship network. The graph suggested a power-law distribution. To confirm on our assumption, we run statistical tests comparing the likelihood of power-law distribution against the exponential distribution, the log-normal distribution, and the truncated power-law distribution.
+	
+	Next, we focused on the largest connected component of the network, made of 883 authors and 2753 links between them. The choice of focusing on the largest component was dictated mostly by computational limitations.
+	
+	Working on the largest component, we applied the Louvein community \citep{blondel2008fast} algorithm to identify the major communities of authors and investigated the distribution of institutions and countries across communities (see Fig. [XXX]).
+	
+	To conclude, we analyzed the network for small-world behavior. More specifically, we calculated both the clustering coefficient and the average path length and compared them to random networks of equivalent size.
+	
+	\subsection{Co-citation network analysis}
+	We built a co-citation network of nodes (i.e., articles) and links (i.e. co-citation between two articles). The resulting graph had 1298 nodes. The degree distribution was tested for power-law characteristics against other plausible distributions (exponential, log-normal, and truncated power-law).
+	
+	Next, we identified the most influential articles (i.e., the top 10 in terms of received citations). Our goal was to check if the most cited articles were literature reviews. As presented in the following section, this turned out not to be the case, allowing us to draw relevant considerations over the demand of SLRs at the conjunction of digital transformation and shipping industry.
+	
+	We then moved our attention to the top 20\% cited papers and analyzed their topics. To achieve this, we create a sub-network using only the top 20\% cited papers and applied the Louvein community algorithm \citep{blondel2008fast}. Next, for each community collected the titles and applied natural language processing (NLP) to model their topics (BERTTopic \citep{paulcombining}).
+	
+	To conclude, we applied different centrality measures to the top 20\% graph to identify the 5 most relevant articles. These were analyzed more in details in terms of covered research area, as a preliminary trend analysis, further developed in our next and last analysis section.
+	
+	\subsection{Thematic analysis}
+	Working on the entire set of articles (2290) we performed a thematic analysis to identify the major topic of research. We pre-processed the titles with the following steps:
+	\begin{enumerate}
+		\item lemmatization to transform words into their root forms;
+		\item removal of stop-words;
+		\item removal of non alpha-numeric text.
+	\end{enumerate}
+	Next, we applied tokenization and embedded each title using BERT \citep{devlin2018bert}. The resulting vectors were analyzed for unsupervised clustering. More specifically, we adopted three method to identify the ideal number of clusters: the Elbow index \citep{cui2020introduction}, the Calinski-Harabasz index \citep{calinski1974dendrite}, and the Davies-Bouldin index \citep{davies1979cluster}.
+	Having identified the best number of cluster, we applied the unsupervised K-means algorithm and calculated the centroid for each cluster.
+	Next, we identified for each cluster the 10 articles closest to the corresponding centroid and applied BERTTopic to extract the common themes.
+	
+	We concluded our thematic analysis by building two word clouds. Using both titles and abstracts from all articles, we applied the TF-IDF algorithm to each word and use it as weight when building the clouds. The first cloud was built over the entire set of words in titles and abstracts, while the second cloud was built after removing all shipping related terms (hence focusing on the digital technologies only).
 	
 	\section{Results}
 	Present any results, tables, or figures.
