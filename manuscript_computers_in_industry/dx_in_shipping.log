@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.9)  12 FEB 2025 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.20)  15 FEB 2025 10:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,46 +399,49 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 \openout5 = `dx_in_shipping.ttt'.
 
  (dx_in_shipping.ttt)
-[2] [3] [4] [5] (./dx_in_shipping.bbl [6])
-AED endfloat: Processing end Figures and Tables [7] (./dx_in_shipping.lot)
+[2] [3] [4] [5]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
+40.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 240.
+
+[6] (./dx_in_shipping.bbl [7] [8])
+AED endfloat: Processing end Figures and Tables [9] (./dx_in_shipping.lot)
 \tf@lot=\write7
 \openout7 = `dx_in_shipping.lot'.
 
 
-[8
+[10
 
 
-] (./dx_in_shipping.ttt [9
+] (./dx_in_shipping.ttt [11
 
-] [10
+] [12
 
 ]
 Overfull \hbox (107.88977pt too wide) in paragraph at lines 68--95
  [][] 
  []
 
-[11
+[13
 
-]) [12
+]) [14
 
 ] (./dx_in_shipping.aux)
-
-Package rerunfilecheck Warning: File `dx_in_shipping.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `dx_in_shipping.out':
-(rerunfilecheck)             Before: 3FB6EA444A5A82B0E7DBB9BBC0152BA4;1779
-(rerunfilecheck)             After:  C5D84C41F635D625009F8F589750EB3B;2343.
+Package rerunfilecheck Info: File `dx_in_shipping.out' has not changed.
+(rerunfilecheck)             Checksum: C5D84C41F635D625009F8F589750EB3B;2343.
  ) 
 Here is how much of TeX's memory you used:
- 10254 strings out of 480171
- 158617 string characters out of 5894489
- 454217 words of memory out of 5000000
- 28027 multiletter control sequences out of 15000+600000
+ 10295 strings out of 480171
+ 159416 string characters out of 5894489
+ 454391 words of memory out of 5000000
+ 28059 multiletter control sequences out of 15000+600000
  473639 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 70i,9n,76p,976b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,9n,76p,1076b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
@@ -450,10 +453,10 @@ ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8
 .pfb>
-Output written on dx_in_shipping.pdf (12 pages, 165119 bytes).
+Output written on dx_in_shipping.pdf (14 pages, 170860 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

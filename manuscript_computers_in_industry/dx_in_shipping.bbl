@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -73,6 +73,31 @@
 \newblock \bibinfo{type}{Technical Report}. Los Alamos National Laboratory
   (LANL), Los Alamos, NM (United States).
 %Type = Article
+\bibitem[{Higaki et~al.(2020)Higaki, Uetani, Ikeda and
+  Yamaguchi}]{higaki2020co}
+\bibinfo{author}{Higaki, A.}, \bibinfo{author}{Uetani, T.},
+  \bibinfo{author}{Ikeda, S.}, \bibinfo{author}{Yamaguchi, O.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Co-authorship network analysis in cardiovascular
+  research utilizing machine learning (2009--2019)}.
+\newblock \bibinfo{journal}{International Journal of Medical Informatics}
+  \bibinfo{volume}{143}, \bibinfo{pages}{104274}.
+%Type = Inproceedings
+\bibitem[{Liu et~al.(2021)Liu, Jiang and Liu}]{liu2021structural}
+\bibinfo{author}{Liu, P.}, \bibinfo{author}{Jiang, L.}, \bibinfo{author}{Liu,
+  H.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Structural and evolutionary analysis of coauthorship
+  network in scientometrics}, in: \bibinfo{booktitle}{2021 International
+  Conference on Education, Information Management and Service Science (EIMSS)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{514--519}.
+%Type = Article
+\bibitem[{Mitzenmacher(2004)}]{mitzenmacher2004brief}
+\bibinfo{author}{Mitzenmacher, M.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{A brief history of generative models for power law
+  and lognormal distributions}.
+\newblock \bibinfo{journal}{Internet mathematics} \bibinfo{volume}{1},
+  \bibinfo{pages}{226--251}.
+%Type = Article
 \bibitem[{Paul et~al.()Paul, Rahman, Begum, Ahmed, Chakraborty and
   Rahman}]{paulcombining}
 \bibinfo{author}{Paul, P.C.}, \bibinfo{author}{Rahman, M.},
@@ -87,6 +112,13 @@
 \newblock \bibinfo{title}{Openalex: A fully-open index of scholarly works,
   authors, venues, institutions, and concepts}.
 \newblock \bibinfo{journal}{arXiv preprint arXiv:2205.01833} .
+%Type = Article
+\bibitem[{Smith(2021)}]{smith2021explaining}
+\bibinfo{author}{Smith, K.M.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Explaining the emergence of complex networks through
+  log-normal fitness in a euclidean node similarity space}.
+\newblock \bibinfo{journal}{Scientific Reports} \bibinfo{volume}{11},
+  \bibinfo{pages}{1976}.
 %Type = Article
 \bibitem[{Vaughan(2011)}]{vaughan2011ebsco}
 \bibinfo{author}{Vaughan, J.}, \bibinfo{year}{2011}.
