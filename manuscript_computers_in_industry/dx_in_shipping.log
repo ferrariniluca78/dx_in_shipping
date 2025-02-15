@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.9)  15 FEB 2025 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.9)  15 FEB 2025 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -408,16 +408,7 @@ File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 240.
 
-[6]
-
-LaTeX Warning: Reference `citationtoppapers' on page 7 undefined on input line 
-249.
-
-
-LaTeX Warning: Reference `citationthemes' on page 7 undefined on input line 273
-.
-
-[7] (./dx_in_shipping.bbl [8] [9])
+[6] [7] (./dx_in_shipping.bbl [8] [9])
 AED endfloat: Processing end Figures and Tables [10] (./dx_in_shipping.lot)
 \tf@lot=\write7
 \openout7 = `dx_in_shipping.lot'.
@@ -458,20 +449,24 @@ Overfull \hbox (146.75092pt too wide) in paragraph at lines 178--195
  [][] 
  []
 
-) [18
+[18
+
+]
+Overfull \hbox (3087.91588pt too wide) in paragraph at lines 201--214
+ [][] 
+ []
+
+) [19
 
 ] (./dx_in_shipping.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `dx_in_shipping.out' has not changed.
 (rerunfilecheck)             Checksum: C5D84C41F635D625009F8F589750EB3B;2343.
  ) 
 Here is how much of TeX's memory you used:
- 10307 strings out of 480171
- 159567 string characters out of 5894489
- 454562 words of memory out of 5000000
- 28064 multiletter control sequences out of 15000+600000
+ 10308 strings out of 480171
+ 159560 string characters out of 5894489
+ 454612 words of memory out of 5000000
+ 28063 multiletter control sequences out of 15000+600000
  473639 words of font info for 43 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  70i,9n,76p,1076b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -486,10 +481,10 @@ ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8
 .pfb>
-Output written on dx_in_shipping.pdf (18 pages, 178038 bytes).
+Output written on dx_in_shipping.pdf (19 pages, 184706 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
