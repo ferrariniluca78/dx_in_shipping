@@ -126,3 +126,70 @@ JP & 26 & 79.35 & 1.30\\
 \end{tabular}
 \label{tab:resdesccountry}
 \end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\centering
+\caption{Top 10 influential papers based on citations.}
+\begin{tabular}{l l c}
+\hline
+DOI & Title & Publication Year\\
+\hline
+https://doi.org/10.1080/03088839.2020.1788731 & Big data and artificial intelligence in the maritime industry: a bibliometric review and future research directions & 2020\\
+https://doi.org/10.3390/jmse12060919 & Comprehensive Analysis of Maritime Cybersecurity Landscape Based on the NIST CSF v2. 0 & 2024\\
+https://doi.org/10.1016/j.tre.2019.09.020 & Maritime shipping digitalization: Blockchain-based technology applications, future improvements, and intention to use & 2019\\
+https://doi.org/10.1080/01441647.2019.1649315 & How big data enriches maritime research–a critical review of Automatic Identification System (AIS) data applications & 2019\\
+https://doi.org/10.3390/app14145994 & Harnessing AI for sustainable shipping and green ports: Challenges and opportunities & 2024\\
+https://doi.org/10.1016/j.ijcip.2022.100571 & Developments and research directions in maritime cybersecurity: A systematic literature review and bibliometric analysis & 2022\\
+https://doi.org/10.1109/tits.2019.2908191 & Traffic pattern mining and forecasting technologies in maritime traffic service networks: A comprehensive survey & 2019\\
+https://doi.org/10.3390/s19040926 & Toward Digitalization of Maritime Transport? & 2019\\
+https://doi.org/10.3390/info13010022 & Cyber security in the maritime industry: A systematic survey of recent advances and future trends & 2022\\
+https://doi.org/10.3390/jmse10040486 & Digitalization in maritime transport and seaports: bibliometric, content and thematic analysis & 2022\\
+\hline
+\end{tabular}
+\label{tab:citationtoppapers}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\centering
+\caption{Community-based topic analysis}
+\begin{tabular}{l l c}
+\hline
+Community & Main theme \\
+\hline
+1 & Optimization and prediction of fuel consumption, energy efficiency, and environmental impact in the maritime industry, with a focus on machine learning, big data, and modeling techniques.\\
+2 & Maritime safety, risk management, and the application of machine learning techniques to predict, analyze, and mitigate accidents and hazards in maritime operations. \\
+3 & Machine learning, artificial intelligence, and big data applications in the maritime domain.\\
+4 & Integration of Internet of Things (IoT), mobile edge computing, communication networks, and security within the maritime industry, with a particular focus on autonomous ships, data offloading, latency minimization, and communication technologies for maritime transportation systems.\\
+5 & Digital transformation and technological advancements within the maritime sector, particularly in relation to maritime logistics, container shipping, port operations, and the broader shipping supply chain.\\
+6 & Development and optimization of smart ports, focusing on the integration of Industry 4.0 technologies.\\
+7 & Maritime cybersecurity, with an emphasis on cyber risks associated with the digital transformation of the maritime industry, particularly as it pertains to the rise of autonomous vessels, smart shipping technologies, and the IoT-enabled maritime environment.\\
+8 & Adoption and application of blockchain technology in the maritime industry, specifically in areas like shipping, supply chains, and port management.\\
+\hline
+\end{tabular}
+\label{tab:citationthemes}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[h]
+\centering
+\caption{Centrality-based topic analysis.}
+\begin{tabular}{l l c}
+\hline
+OpenAlex ID & Top 5 in N centrality measures & Main topic \\
+\hline
+W3041382323 & 5 & Big data and artificial intelligence\\
+W4400493457 & 4 & Artificial intelligence, sustainable shipping, and green ports\\
+W2964482263 & 4 & Big data\\
+W2978644098 & 3 & Blockchains\\
+W4386245296 & 2 & Data and IoT\\
+W4225993858 & 2 & Digitalization\\
+W4399283331 & 2 & Cybersecurity\\
+W3090216936 & 1 & Blockchain conceptual framework\\
+W4205557186 & 1 & Cybersecurity\\
+W3213918042 & 1 & Blockchain\\
+\hline
+\end{tabular}
+\label{tab:citationcentrality}
+\end{table}
