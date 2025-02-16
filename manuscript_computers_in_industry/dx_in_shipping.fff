@@ -1,0 +1,70 @@
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/no_publications_year.eps}
+\caption{Distribution of publications across years}\label{fig:fig1}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/leading_authors.eps}
+\includegraphics[scale=0.8]{pics/leading_institutions.eps}
+\includegraphics[scale=0.8]{pics/leading_countries.eps}
+\caption{Top 20 leading authors (\textit{top}), institutions (\textit{middle}), and countries (\textit{bottom})}\label{fig:fig2}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/coauthorship_degree_distribution.eps}
+\includegraphics[scale=0.8]{pics/coauthorship_degree_distribution_loglog_chart.eps}
+\caption{Co-authorship degree distribution (\textit{top}), and corresponding log-log chart (\textit{bottom})}\label{fig:fig3}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/co-authorship_communities.eps}
+\caption{Co-authorship network with communities}\label{fig:fig4}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/coauthorship_inst_per_partition.eps}
+\includegraphics[scale=0.8]{pics/coauthorship_country_per_partition.eps}
+\caption{Co-authorship distribution of insitutions (\textit{top}) and countries (\textit{bottom}) across partitions}\label{fig:fig5}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_1.eps}
+\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_2.eps}
+\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_3.eps}
+\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) XXX, (\textit{middle}) XXX, and (\textit{bottom}) XXX}\label{fig:fig6}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/coauthorship_country_chord_1.eps}
+\includegraphics[scale=0.8]{pics/coauthorship_country_chord_2.eps}
+\includegraphics[scale=0.8]{pics/coauthorship_country_chord_3.eps}
+\caption{Chord diagrams for countries mapping on co-authorship communities. The three diagrams show three relevant clusters:(\textit{top}) XXX, (\textit{middle}), and (\textit{bottom}) XXX}\label{fig:fig7}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/citation_degree_distribution.eps}
+\includegraphics[scale=0.8]{pics/loglog_citation_degree_distribution.eps}
+\caption{Co-citation degree distribution and log-log chart} \label{fig:fig8}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/cocitation_communiities.eps}
+\caption{Co-citation network with communities}\label{fig:fig9}
+\end{figure}

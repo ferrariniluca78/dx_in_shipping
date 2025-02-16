@@ -5,6 +5,7 @@
 \usepackage{amsmath}  % For mathematical symbols
 \usepackage{graphicx} % For including images
 \usepackage{hyperref} % For clickable links
+\usepackage{caption}
 
 % Title, author, and affiliation
 \title{Digital Transformation in the Shipping Industry: a Network-Based Systematic Review}
@@ -134,11 +135,11 @@
 	\subsection{Co-authorship network analysis}
 	As a second step, we built and analyzed the network of co-authorship. Network analysis was performed in Python, using the NetworkX package \citep{hagberg2008exploring}. We identified 7723 distinct authors. We built the network using authors as nodes, and setting bi-directional links between them if there existed at least one publication that they co-authored. For each link, we stored within the graph object information about the authors institutes and countries for further analysis.
 	
-	Figure XXX shows the degree distribution of the co-authorship network. The graph suggested a power-law distribution. To confirm on our assumption, we run statistical tests comparing the likelihood of power-law distribution against the exponential distribution, the log-normal distribution, and the truncated power-law distribution.
+	To determine which distribution best fit the data, we run statistical tests comparing the likelihood of power-law distribution against the exponential distribution, the log-normal distribution, and the truncated power-law distribution.
 	
 	Next, we focused on the largest connected component of the network, made of 883 authors and 2753 links between them. The choice of focusing on the largest component was dictated mostly by computational limitations.
 	
-	Working on the largest component, we applied the Louvein community \citep{blondel2008fast} algorithm to identify the major communities of authors and investigated the distribution of institutions and countries across communities (see Fig. [XXX]).
+	Working on the largest component, we applied the Louvein community \citep{blondel2008fast} algorithm to identify the major communities of authors and investigated the distribution of institutions and countries across communities.
 	
 	To conclude, we analyzed the network for small-world behavior. More specifically, we calculated both the clustering coefficient and the average path length and compared them to random networks of equivalent size.
 	
@@ -168,9 +169,23 @@
 	In this section we present the results of our analysis. We then discuss them in the next section.
 	
 	\subsection{Descriptive statistics}
-	Figure [XXX] shows the distribution of articles across years. Altough the first publications are dates as back as the 1960s, only from the year 2005 we witness an increasing interest in the effects of digital transformation within the shipping and maritime industry. The number of publication increased minimally and not steadily between 2005 and 2015. From 2015 onwards, we witness an exponential increase in the number of publications. After reaching a peak in 2023, the trend seem to have stabilized. Considering that our data was collected at the end of October 2024, we can reasonably argue that the year 2024 has not witnessed a signficant increase of publication, compared to the previous year.
+	Figure \ref{fig:fig1} shows the distribution of articles across years. Altough the first publications are dates as back as the 1960s, only from the year 2005 we witness an increasing interest in the effects of digital transformation within the shipping and maritime industry. The number of publication increased minimally and not steadily between 2005 and 2015. From 2015 onwards, we witness an exponential increase in the number of publications. After reaching a peak in 2023, the trend seem to have stabilized. Considering that our data was collected at the end of October 2024, we can reasonably argue that the year 2024 has not witnessed a signficant increase of publication, compared to the previous year.
 	
-	Figures [XXX]-[XXX] show the top 20 authors, the top 20 institutes, and the top 20 countries in terms of number of publications. Considering the authors, we note how the 0.03\% of all authors in our cohort (20 out of 7723) cover over 2.9\% of the total publications, suggesting a skewed distriution of publications across authors. When looking at the top insititutes, we see they cover over 21\% of the total publications (see Table \ref{tab:resdescinst}), while the top 5 countries cover up to 50\% of total publications (see Table \ref{tab:resdesccountry}). Looking deeper into the top insitute, one can notice how many of those Universityies have strong historical bindings with the sea. Consider, as examples, the Dalian Maritime University, the Shangai Maritime Univerity, and the Delft Technical University. Similarly, looking at the most rapresentative countries one can see they all have strong maritime industry and economy.
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/no_publications_year.eps}
+		\caption{Distribution of publications across years}\label{fig:fig1}
+	\end{figure}
+	
+	Figures \ref{fig:fig2} show the top 20 authors, the top 20 institutes, and the top 20 countries in terms of number of publications. Considering the authors, we note how the 0.03\% of all authors in our cohort (20 out of 7723) cover over 2.9\% of the total publications, suggesting a skewed distriution of publications across authors. When looking at the top insititutes, we see they cover over 21\% of the total publications (see Table \ref{tab:resdescinst}), while the top 5 countries cover up to 50\% of total publications (see Table \ref{tab:resdesccountry}). Looking deeper into the top insitute, one can notice how many of those Universityies have strong historical bindings with the sea. Consider, as examples, the Dalian Maritime University, the Shangai Maritime Univerity, and the Delft Technical University. Similarly, looking at the most rapresentative countries one can see they all have strong maritime industry and economy.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/leading_authors.eps}
+		\includegraphics[scale=0.8]{pics/leading_institutions.eps}
+		\includegraphics[scale=0.8]{pics/leading_countries.eps}
+		\caption{Top 20 leading authors (\textit{top}), institutions (\textit{middle}), and countries (\textit{bottom})}\label{fig:fig2}
+	\end{figure}
 	
 	\begin{table}[h]
 		\centering
@@ -237,14 +252,57 @@
 	\end{table}
 
 	\subsection{Co-authorship network analysis}
-	The degree distribution of the co-authorship network seems to follow a power-law curve (see Fig. [XXX]). However, several distributions may present similar curves. To establish which is the best fitting model we run statistical tests. We run statistical tests, calculating the log-likelihood and p-value between different pairs. The power-law distribution was significantly more accurate fit than the exponential one (p \textless 0.01). However, the comparison between power-law and truncated power-law distributions, as well as the one between power-law and log-normal distributions, did not lead to significantly different results (p=0.32 and p=0.39 respectively). The results confirm the heavy-tail characteristic of the degree distribution (which holds true for both log-normal and power-law), but without further indicate the possible nature of such heavy tail \citep{mitzenmacher2004brief,higaki2020co,liu2021structural,smith2021explaining}.
+	The degree distribution of the co-authorship network seems to follow a power-law curve (see Fig. \ref{fig:fig3}. However, several distributions may present similar curves. To establish which is the best fitting model we run statistical tests. We run statistical tests, calculating the log-likelihood and p-value between different pairs. The power-law distribution was significantly more accurate fit than the exponential one (p \textless 0.01). However, the comparison between power-law and truncated power-law distributions, as well as the one between power-law and log-normal distributions, did not lead to significantly different results (p=0.32 and p=0.39 respectively). The results confirm the heavy-tail characteristic of the degree distribution (which holds true for both log-normal and power-law), but without further indicate the possible nature of such heavy tail \citep{mitzenmacher2004brief,higaki2020co,liu2021structural,smith2021explaining}.
 	
-	As a second step in our co-authorship network analysis, we identified the largest component of the network (made of 2753 authors), and identified its main communities, using the Louvain algorithm \citep{blondel2008fast}. We identified 28 communities, and map on them the distribution of institutions and countries linked to the authors. Results highlight a high level of international collaborations within each community, as well as a high level of national collaborations (within the same country). This can be seen in Figure [XXX], where we show the number of different countries and institutions per community. Furthermore, out network analysis does not show and closed cluster of collaborations. Communities are all well inter-connected, suggesting that the niche nature of this field (i.e., digital transformation in shipping) leads global actors to collaborate extensively in advancing research. In Figure [XXX] and Figure [XXX] we show the chord charts for both country and institution mapping on the co-authorship communities.
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/coauthorship_degree_distribution.eps}
+		\includegraphics[scale=0.8]{pics/coauthorship_degree_distribution_loglog_chart.eps}
+		\caption{Co-authorship degree distribution (\textit{top}), and corresponding log-log chart (\textit{bottom})}\label{fig:fig3}
+	\end{figure}
+	
+	As a second step in our co-authorship network analysis, we identified the largest component of the network (made of 2753 authors), and identified its main communities, using the Louvain algorithm \citep{blondel2008fast}. We identified 28 communities (see Fig. \ref{fig:fig4}), and map on them the distribution of institutions and countries linked to the authors. Results highlight a high level of international collaborations within each community, as well as a high level of national collaborations (within the same country). This can be seen in Figure \ref{fig:fig5}, where we show the number of different countries and institutions per community. Furthermore, our network analysis does not show and closed cluster of collaborations. Communities are all well inter-connected, suggesting that the niche nature of this field (i.e., digital transformation in shipping) leads global actors to collaborate extensively in advancing research. In Figure [XXX] and Figure [XXX] we show the chord charts for both country and institution mapping on the co-authorship communities.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/co-authorship_communities.eps}
+		\caption{Co-authorship network with communities}\label{fig:fig4}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/coauthorship_inst_per_partition.eps}
+		\includegraphics[scale=0.8]{pics/coauthorship_country_per_partition.eps}
+		\caption{Co-authorship distribution of insitutions (\textit{top}) and countries (\textit{bottom}) across partitions}\label{fig:fig5}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_1.eps}
+		\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_2.eps}
+		\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_3.eps}
+		\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) XXX, (\textit{middle}) XXX, and (\textit{bottom}) XXX}\label{fig:fig6}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/coauthorship_country_chord_1.eps}
+		\includegraphics[scale=0.8]{pics/coauthorship_country_chord_2.eps}
+		\includegraphics[scale=0.8]{pics/coauthorship_country_chord_3.eps}
+		\caption{Chord diagrams for countries mapping on co-authorship communities. The three diagrams show three relevant clusters:(\textit{top}) XXX, (\textit{middle}), and (\textit{bottom}) XXX}\label{fig:fig7}
+	\end{figure}
 	
 	Lastly, we evaluated the small-world properties of the co-authorship network. To do so, we calculated both clustering coefficient and average path length, and compare them with equivalent random networks. Our results show a higher clustering coefficient (0.83 vs 0.007) and a higher average path (7.1 vs. 3.9). In a proper small-world topology, one would expect high clustering coefficient and small average path. Our results, instead, suggest that communities are strongly locally organized, but somehow lack efficiency in cross community communication.
 	
 	\subsection{Co-citation network analysis}
-	The co-citation network was analyzed for its largest connected component (made of 1298 articles). The results on the degree distribution are similar to those we obtained for the co-authorship network. More specifically, the statistical comparison between degree distribution excluded an exponential distribution (p \textless 0.05), and did not favor a power-law distribution against log-normal or truncated power-law distribution (p=0.06 and p=0.9 respectively). Figure [XXX] shows the degree distribution
+	The co-citation network was analyzed for its largest connected component (made of 1298 articles). The results on the degree distribution are similar to those we obtained for the co-authorship network. More specifically, the statistical comparison between degree distribution excluded an exponential distribution (p \textless 0.05), and did not favor a power-law distribution against log-normal or truncated power-law distribution (p=0.06 and p=0.9 respectively). Figure \ref{fig:fig8} shows the degree distribution.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/citation_degree_distribution.eps}
+		\includegraphics[scale=0.8]{pics/loglog_citation_degree_distribution.eps}
+		\caption{Co-citation degree distribution and log-log chart} \label{fig:fig8}
+	\end{figure}
 	
 	Using the degree distribution, we identified the most influential articles (i.e. top 10 articles with the highest number of co-citation). Table \ref{tab:citationtoppapers} shows such influential works. One can see that amongh the most influential works we find SLRs and bibliometric studies, supporting the relevance of such publicaitons within the industry.
 	
@@ -270,7 +328,13 @@
 		\label{tab:citationtoppapers}
 	\end{table}
 	
-	Next, we created a sub-graph considering only the 20\% most cited articles (257 nodes). We identified the communities using the Louvain algorithm and perform a topic analysis on the titles of the articles per community. Table \ref{tab:citationthemes} reports the main topics for each of the 7 communities we identified, while Figure [XXX] show the color-mapped communities.
+	Next, we created a sub-graph considering only the 20\% most cited articles (257 nodes). We identified the communities using the Louvain algorithm and perform a topic analysis on the titles of the articles per community. Table \ref{tab:citationthemes} reports the main topics for each of the 7 communities we identified, while Figure \ref{fig:fig9} show the color-mapped communities.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/cocitation_communiities.eps}
+		\caption{Co-citation network with communities}\label{fig:fig9}
+	\end{figure}
 	
 	\begin{table}[h]
 		\centering
