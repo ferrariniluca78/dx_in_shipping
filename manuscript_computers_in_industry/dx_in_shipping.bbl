@@ -43,13 +43,6 @@
 \newblock \bibinfo{journal}{The Charleston Advisor} \bibinfo{volume}{19},
   \bibinfo{pages}{39--43}.
 %Type = Article
-\bibitem[{Cui et~al.(2020)}]{cui2020introduction}
-\bibinfo{author}{Cui, M.}, et~al., \bibinfo{year}{2020}.
-\newblock \bibinfo{title}{Introduction to the k-means clustering algorithm
-  based on the elbow method}.
-\newblock \bibinfo{journal}{Accounting, Auditing and Finance}
-  \bibinfo{volume}{1}, \bibinfo{pages}{5--8}.
-%Type = Article
 \bibitem[{Davies and Bouldin(1979)}]{davies1979cluster}
 \bibinfo{author}{Davies, D.L.}, \bibinfo{author}{Bouldin, D.W.},
   \bibinfo{year}{1979}.
@@ -112,6 +105,13 @@
 \newblock \bibinfo{title}{Openalex: A fully-open index of scholarly works,
   authors, venues, institutions, and concepts}.
 \newblock \bibinfo{journal}{arXiv preprint arXiv:2205.01833} .
+%Type = Article
+\bibitem[{Shen et~al.(2018)Shen, Ma and Wang}]{shen2018web}
+\bibinfo{author}{Shen, Z.}, \bibinfo{author}{Ma, H.}, \bibinfo{author}{Wang,
+  K.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{A web-scale system for scientific knowledge
+  exploration}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1805.12216} .
 %Type = Article
 \bibitem[{Smith(2021)}]{smith2021explaining}
 \bibinfo{author}{Smith, K.M.}, \bibinfo{year}{2021}.

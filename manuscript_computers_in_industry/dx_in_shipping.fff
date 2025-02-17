@@ -68,3 +68,39 @@
 \includegraphics[scale=0.8]{pics/cocitation_communiities.eps}
 \caption{Co-citation network with communities}\label{fig:fig9}
 \end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/davis_bouldin.eps}
+\includegraphics[scale=0.8]{pics/calinski.eps}
+\caption{Davies-Bouldin (\text{top}) and Calinski-Harabasz (\textit{bottom}) indexes.}\label{fig:fig10}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/wordcloud_1.eps}
+\caption{Word cloud based on TF-IDF}\label{fig:fig11}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/wordcloud_2.eps}
+\caption{Word cloud focused on technological terms}\label{fig:fig12}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/main_concept_trend_toplevel.eps}
+\caption{Top-level OpenAlex concept distribution over time terms}\label{fig:fig13}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{pics/main_concept_trend_lowerlevels.eps}
+\caption{Detail-level OpenAlex concept distribution over time for the 10 most relevant terms}\label{fig:fig14}
+\end{figure}

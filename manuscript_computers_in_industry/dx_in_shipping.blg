@@ -7,43 +7,43 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty journal in paulcombining
 You've used 16 entries,
             2990 wiz_defined-function locations,
-            724 strings with 7993 characters,
-and the built_in function-call counts, 10006 in all, are:
-= -- 750
-> -- 376
-< -- 9
-+ -- 153
-- -- 129
-* -- 1039
-:= -- 1477
+            722 strings with 7956 characters,
+and the built_in function-call counts, 9984 in all, are:
+= -- 741
+> -- 384
+< -- 8
++ -- 158
+- -- 132
+* -- 1038
+:= -- 1476
 add.period$ -- 46
 call.type$ -- 16
-change.case$ -- 122
+change.case$ -- 124
 chr.to.int$ -- 16
 cite$ -- 17
-duplicate$ -- 781
-empty$ -- 747
-format.name$ -- 172
-if$ -- 1846
+duplicate$ -- 778
+empty$ -- 741
+format.name$ -- 174
+if$ -- 1836
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 146
+missing$ -- 145
 newline$ -- 93
 num.names$ -- 64
-pop$ -- 301
+pop$ -- 308
 preamble$ -- 1
-purify$ -- 106
+purify$ -- 108
 quote$ -- 0
 skip$ -- 230
 stack$ -- 0
-substring$ -- 400
-swap$ -- 522
+substring$ -- 389
+swap$ -- 517
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 144
 warning$ -- 1
-while$ -- 68
+while$ -- 66
 width$ -- 0
-write$ -- 231
+write$ -- 230
 (There was 1 warning)

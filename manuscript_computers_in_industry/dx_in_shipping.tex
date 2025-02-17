@@ -159,7 +159,7 @@
 		\item removal of stop-words;
 		\item removal of non alpha-numeric text.
 	\end{enumerate}
-	Next, we applied tokenization and embedded each title using BERT \citep{devlin2018bert}. The resulting vectors were analyzed for unsupervised clustering. More specifically, we adopted three method to identify the ideal number of clusters: the Elbow index \citep{cui2020introduction}, the Calinski-Harabasz index \citep{calinski1974dendrite}, and the Davies-Bouldin index \citep{davies1979cluster}.
+	Next, we applied tokenization and embedded each title using BERT \citep{devlin2018bert}. The resulting vectors were analyzed for unsupervised clustering. More specifically, we adopted two methods to identify the ideal number of clusters: the Calinski-Harabasz index \citep{calinski1974dendrite}, and the Davies-Bouldin index \citep{davies1979cluster}.
 	Having identified the best number of cluster, we applied the unsupervised K-means algorithm and calculated the centroid for each cluster.
 	Next, we identified for each cluster the 10 articles closest to the corresponding centroid and applied BERTTopic to extract the common themes.
 	
@@ -381,7 +381,14 @@
 	\end{table}
 		
 	\subsection{Thematic analysis}
-	For the thematic analysis, we considered all titles from the 2290 articles. After having pre-processed, tokenized, and vectorized all titles, we used clustering methods to identify the best number of clusters for the vectors. More specifically, we used the Elbow index, the Calinski-Harabasz index, and the Davies-Bouldin index. The curves are shown in Figure [XXX]. All indexes pointed to 8 ideal clusters. For each cluster, we calculated the centroid and then selected the 10 closest vectors (i.e. articles) to each centroid. Focusing on their titles, we highlighted the main themes for each cluster. Results are shown in Table \ref{tab:thematic}.
+	For the thematic analysis, we considered all titles from the 2290 articles. After having pre-processed, tokenized, and vectorized all titles, we used clustering methods to identify the best number of clusters for the vectors. More specifically, we used the Calinski-Harabasz index and the Davies-Bouldin index. The curves are shown in Figure \ref{fig:fig10}. All indexes pointed to 8 ideal clusters. For each cluster, we calculated the centroid and then selected the 10 closest vectors (i.e. articles) to each centroid. Focusing on their titles, we highlighted the main themes for each cluster. Results are shown in Table \ref{tab:thematic}.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/davis_bouldin.eps}
+		\includegraphics[scale=0.8]{pics/calinski.eps}
+		\caption{Davies-Bouldin (\text{top}) and Calinski-Harabasz (\textit{bottom}) indexes.}\label{fig:fig10}
+	\end{figure}
 	
 	\begin{table}[h]
 		\centering
@@ -401,9 +408,35 @@
 		\label{tab:thematic}
 	\end{table}
 	
-	Next, we built words cloud for our articles. In this case, we used both title and abstract words. A first word cloud was built using all words after pre-processing them. The second word cloud was built after remoing shipping related key words. This allowed us to focus on technical key words for the second word cloud. Both word clouds were based on TF-IDF analysis and are shown in Figure [XXX] and Figure [XXX].
+	Next, we built words cloud for our articles. In this case, we used both title and abstract words. A first word cloud was built using all words after pre-processing them. The second word cloud was built after remoing shipping related key words. This allowed us to focus on technical key words for the second word cloud. Both word clouds were based on TF-IDF analysis and are shown in Figure \ref{fig:fig11} and Figure \ref{fig:fig12}.
 	
-	As a last analysis, we focsed on the main words idenfied by the TF-IDF analysis and followed them over time to check for specific trends or research gaps. The heatmap is shown in Figure [XXX].
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/wordcloud_1.eps}
+		\caption{Word cloud based on TF-IDF}\label{fig:fig11}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/wordcloud_2.eps}
+		\caption{Word cloud focused on technological terms}\label{fig:fig12}
+	\end{figure}
+	
+	As a last analysis, we focused on the concept tags reported by OpenAlex for each paper. OpenAlex organized topics in a tree-like structure which is a modification of the one produced by \citep{shen2018web}. Specifically, there are 19 root-level concepts: engineering, computer science, business, economics, philosophy, mathematics, political science, medicine, psychology, environmental science, geology, geography, chemistry, physics, biology, sociology, art, history, and materials science. We have collected the root-level concepts related to the publications in out study and plot the number of corresponding papers over time (see Figure \ref{fig:fig13}).
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/main_concept_trend_toplevel.eps}
+		\caption{Top-level OpenAlex concept distribution over time terms}\label{fig:fig13}
+	\end{figure}
+	
+	The predominant top-level concept over time are engineering, computer science, and business. We next focused on the second and third level of concepts of Open-Alex, limiting our search to those having as parents either engineering, computer science, or business. Among those, we selected the 10 most relevant and showed their evolution over time in a heatmap (see Figure \ref{fig:fig14}).
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.8]{pics/main_concept_trend_lowerlevels.eps}
+		\caption{Detail-level OpenAlex concept distribution over time for the 10 most relevant terms}\label{fig:fig14}
+	\end{figure}
 	
 	\section{Discussion}
 	
