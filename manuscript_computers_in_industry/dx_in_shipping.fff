@@ -1,106 +1,106 @@
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/no_publications_year.eps}
+\includegraphics[width=\linewidth]{pics/no_publications_year.eps}
 \caption{Distribution of publications across years}\label{fig:fig1}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/leading_authors.eps}
-\includegraphics[scale=0.8]{pics/leading_institutions.eps}
-\includegraphics[scale=0.8]{pics/leading_countries.eps}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/leading_authors.eps}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/leading_institutions.eps}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/leading_countries.eps}
 \caption{Top 20 leading authors (\textit{top}), institutions (\textit{middle}), and countries (\textit{bottom})}\label{fig:fig2}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/coauthorship_degree_distribution.eps}
-\includegraphics[scale=0.8]{pics/coauthorship_degree_distribution_loglog_chart.eps}
+\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_degree_distribution.eps}
+\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_degree_distribution_loglog_chart.eps}
 \caption{Co-authorship degree distribution (\textit{top}), and corresponding log-log chart (\textit{bottom})}\label{fig:fig3}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/co-authorship_communities.eps}
+\includegraphics[width=\linewidth]{pics/co-authorship_communities.eps}
 \caption{Co-authorship network with communities}\label{fig:fig4}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/coauthorship_inst_per_partition.eps}
-\includegraphics[scale=0.8]{pics/coauthorship_country_per_partition.eps}
+\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_inst_per_partition.eps}
+\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_country_per_partition.eps}
 \caption{Co-authorship distribution of insitutions (\textit{top}) and countries (\textit{bottom}) across partitions}\label{fig:fig5}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_1.eps}
-\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_2.eps}
-\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_3.eps}
-\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) XXX, (\textit{middle}) XXX, and (\textit{bottom}) XXX}\label{fig:fig6}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_1.eps}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_2.eps}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_3.eps}
+\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) Whuan University of Technology, (\textit{middle}) Shanghai Maritime University, and (\textit{bottom}) Dalian Maritime University}\label{fig:fig6}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/coauthorship_country_chord_1.eps}
-\includegraphics[scale=0.8]{pics/coauthorship_country_chord_2.eps}
-\includegraphics[scale=0.8]{pics/coauthorship_country_chord_3.eps}
-\caption{Chord diagrams for countries mapping on co-authorship communities. The three diagrams show three relevant clusters:(\textit{top}) XXX, (\textit{middle}), and (\textit{bottom}) XXX}\label{fig:fig7}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_country_chord_1.eps}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_country_chord_2.eps}
+\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_country_chord_3.eps}
+\caption{Chord diagrams for countries mapping on co-authorship communities. The three diagrams show three relevant clusters:(\textit{top}) China, (\textit{middle}) Singapore, and (\textit{bottom}) Great Britain}\label{fig:fig7}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/citation_degree_distribution.eps}
-\includegraphics[scale=0.8]{pics/loglog_citation_degree_distribution.eps}
+\includegraphics[height=0.2\textheight, keepaspectratio]{pics/citation_degree_distribution.eps}
+\includegraphics[height=0.2\textheight, keepaspectratio]{pics/loglog_citation_degree_distribution.eps}
 \caption{Co-citation degree distribution and log-log chart} \label{fig:fig8}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/cocitation_communiities.eps}
+\includegraphics[width=\linewidth]{pics/cocitation_communiities.eps}
 \caption{Co-citation network with communities}\label{fig:fig9}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/davis_bouldin.eps}
-\includegraphics[scale=0.8]{pics/calinski.eps}
+\includegraphics[height=0.2\textheight, keepaspectratio]{pics/davis_bouldin.eps}
+\includegraphics[height=0.2\textheight, keepaspectratio]{pics/calinski.eps}
 \caption{Davies-Bouldin (\text{top}) and Calinski-Harabasz (\textit{bottom}) indexes.}\label{fig:fig10}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/wordcloud_1.eps}
+\includegraphics[width=\linewidth]{pics/wordcloud_1.eps}
 \caption{Word cloud based on TF-IDF}\label{fig:fig11}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/wordcloud_2.eps}
+\includegraphics[width=\linewidth]{pics/wordcloud_2.eps}
 \caption{Word cloud focused on technological terms}\label{fig:fig12}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/main_concept_trend_toplevel.eps}
+\includegraphics[width=\linewidth]{pics/main_concept_trend_toplevel.eps}
 \caption{Top-level OpenAlex concept distribution over time terms}\label{fig:fig13}
 \end{figure}
 \efloatseparator
  
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.8]{pics/main_concept_trend_lowerlevels.eps}
+\includegraphics[width=\linewidth]{pics/main_concept_trend_lowerlevels.eps}
 \caption{Detail-level OpenAlex concept distribution over time for the 10 most relevant terms}\label{fig:fig14}
 \end{figure}

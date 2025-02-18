@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.20)  17 FEB 2025 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.20)  18 FEB 2025 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -324,6 +324,27 @@ File: caption-elsarticle.sto 2020/08/22 v2.0 Adaption of the caption package to
 \c@continuedfloat=\count295
 Package caption Info: hyperref package is loaded.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box59
+\extrarowheight=\dimen167
+\NC@list=\toks24
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box60
+)
+\TX@col@width=\dimen168
+\TX@old@table=\dimen169
+\TX@old@col=\dimen170
+\TX@target=\dimen171
+\TX@delta=\dimen172
+\TX@cols=\count296
+\TX@ftn=\toks25
+)
 \emailauthor{20200114@stu.uol.ac.cy}{Andreas Pittas}
 \emailauthor{y.filippopoulos@uol.ac.cy}{Yannes Filippopoulos}
 \emailauthor{zlajic@angelicoussisgroup.com}{Zoran Lajic}
@@ -331,38 +352,38 @@ Package caption Info: hyperref package is loaded.
 (./dx_in_shipping.aux)
 \openout1 = `dx_in_shipping.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen166
-\scratchbox=\box59
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen167
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count297
+\scratchdimen=\dimen173
+\scratchbox=\box61
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen174
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -372,7 +393,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -383,11 +404,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count302
+\c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./dx_in_shipping.out) (./dx_in_shipping.out)
 \@outlinefile=\write6
@@ -402,19 +423,19 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 56.
+(hyperref)                removing `\<def>-command' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cnotenum' on input line 56.
+(hyperref)                removing `\cnotenum' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 56.
+(hyperref)                removing `\<def>-command' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@corref' on input line 56.
+(hyperref)                removing `\@corref' on input line 58.
 
 [1
 
@@ -428,13 +449,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (dx_in_shipping.fff) [5]
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
-55.
+57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 255.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 257.
  [6] [7] [8]
 (./dx_in_shipping.bbl [9] [10])
 AED endfloat: Processing end Figures and Tables [11] (./dx_in_shipping.lof)
@@ -457,19 +478,14 @@ Package epstopdf Info: Source file: <pics/no_publications_year.eps>
 eps-converted-to.pdf pics/no_publications_year.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
-<pics/no_publications_year-eps-converted-to.pdf, id=255, 714.67pt x 426.59375pt
+<pics/no_publications_year-eps-converted-to.pdf, id=258, 714.67pt x 426.59375pt
 >
 File: pics/no_publications_year-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/no_publications_year-eps-converted-to.pdf>
 Package pdftex.def Info: pics/no_publications_year-eps-converted-to.pdf  used o
 n input line 3.
-(pdftex.def)             Requested size: 571.73677pt x 341.27545pt.
-
-Overfull \hbox (226.73677pt too wide) in paragraph at lines 3--4
- [][] 
- []
-
-[13
+(pdftex.def)             Requested size: 345.0pt x 205.93434pt.
+ [13
 
  <./pics/no_publications_year-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/leading_authors.eps>
@@ -483,12 +499,12 @@ Package epstopdf Info: Source file: <pics/leading_authors.eps>
 onverted-to.pdf pics/leading_authors.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<pics/leading_authors-eps-converted-to.pdf, id=263, 715.67375pt x 426.59375pt>
+<pics/leading_authors-eps-converted-to.pdf, id=266, 715.67375pt x 426.59375pt>
 File: pics/leading_authors-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/leading_authors-eps-converted-to.pdf>
 Package pdftex.def Info: pics/leading_authors-eps-converted-to.pdf  used on inp
 ut line 10.
-(pdftex.def)             Requested size: 572.53978pt x 341.27545pt.
+(pdftex.def)             Requested size: 300.97404pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/leading_institutions.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 231725 bytes
@@ -500,13 +516,13 @@ Package epstopdf Info: Source file: <pics/leading_institutions.eps>
 eps-converted-to.pdf pics/leading_institutions.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
-<pics/leading_institutions-eps-converted-to.pdf, id=264, 715.67375pt x 426.5937
+<pics/leading_institutions-eps-converted-to.pdf, id=267, 715.67375pt x 426.5937
 5pt>
 File: pics/leading_institutions-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/leading_institutions-eps-converted-to.pdf>
 Package pdftex.def Info: pics/leading_institutions-eps-converted-to.pdf  used o
 n input line 11.
-(pdftex.def)             Requested size: 572.53978pt x 341.27545pt.
+(pdftex.def)             Requested size: 300.97404pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/leading_countries.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 157930 bytes
@@ -518,33 +534,17 @@ f>
 -converted-to.pdf pics/leading_countries.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
-<pics/leading_countries-eps-converted-to.pdf, id=265, 715.67375pt x 426.59375pt
+<pics/leading_countries-eps-converted-to.pdf, id=268, 715.67375pt x 426.59375pt
 >
 File: pics/leading_countries-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/leading_countries-eps-converted-to.pdf>
 Package pdftex.def Info: pics/leading_countries-eps-converted-to.pdf  used on i
 nput line 12.
-(pdftex.def)             Requested size: 572.53978pt x 341.27545pt.
+(pdftex.def)             Requested size: 300.97404pt x 179.40182pt.
+ [14
 
-Overfull \hbox (227.53978pt too wide) in paragraph at lines 10--13
- [][] 
- []
-
-
-Overfull \hbox (227.53978pt too wide) in paragraph at lines 10--13
- [] 
- []
-
-
-Overfull \hbox (227.53978pt too wide) in paragraph at lines 10--13
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 447.32634pt on input line 14.
-
-[14 <./pics/leading_authors-eps-converted-to.pdf> <./pics/leading_institutions-
-eps-converted-to.pdf> <./pics/leading_countries-eps-converted-to.pdf>]
+ <./pics/leading_authors-eps-converted-to.pdf> <./pics/leading_institutions-eps
+-converted-to.pdf> <./pics/leading_countries-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/coauthorship_degree_distribution.eps>
 
 (epstopdf)                    date: 2025-02-17 07:51:28
@@ -557,14 +557,14 @@ converted-to.pdf>
 istribution-eps-converted-to.pdf pics/coauthorship_degree_distribution.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_degree_distribution-eps-converted-to.pdf, id=277, 621.32124p
+<pics/coauthorship_degree_distribution-eps-converted-to.pdf, id=280, 621.32124p
 t x 394.47375pt>
 File: pics/coauthorship_degree_distribution-eps-converted-to.pdf Graphic file (
 type pdf)
 <use pics/coauthorship_degree_distribution-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_degree_distribution-eps-converted-to
 .pdf  used on input line 19.
-(pdftex.def)             Requested size: 497.05768pt x 315.57942pt.
+(pdftex.def)             Requested size: 188.36977pt x 119.59818pt.
 Package epstopdf Info: Source file: <pics/coauthorship_degree_distribution_logl
 og_chart.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
@@ -578,29 +578,19 @@ istribution_loglog_chart-eps-converted-to.pdf pics/coauthorship_degree_distribu
 tion_loglog_chart.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_degree_distribution_loglog_chart-eps-converted-to.pdf, id=27
-8, 481.8pt x 391.4625pt>
+<pics/coauthorship_degree_distribution_loglog_chart-eps-converted-to.pdf, id=28
+1, 481.8pt x 391.4625pt>
 File: pics/coauthorship_degree_distribution_loglog_chart-eps-converted-to.pdf G
 raphic file (type pdf)
 <use pics/coauthorship_degree_distribution_loglog_chart-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_degree_distribution_loglog_chart-eps
 -converted-to.pdf  used on input line 20.
-(pdftex.def)             Requested size: 385.4405pt x 313.17041pt.
+(pdftex.def)             Requested size: 147.19505pt x 119.59818pt.
 
-Overfull \hbox (152.05768pt too wide) in paragraph at lines 19--21
- [][] 
- []
+[15
 
-
-Overfull \hbox (40.4405pt too wide) in paragraph at lines 19--21
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 51.24982pt on input line 22.
-
-[15 <./pics/coauthorship_degree_distribution-eps-converted-to.pdf> <./pics/coau
-thorship_degree_distribution_loglog_chart-eps-converted-to.pdf>]
+ <./pics/coauthorship_degree_distribution-eps-converted-to.pdf> <./pics/coautho
+rship_degree_distribution_loglog_chart-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/co-authorship_communities.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 457454 bytes
@@ -612,23 +602,17 @@ ed-to.pdf>
 ties-eps-converted-to.pdf pics/co-authorship_communities.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<pics/co-authorship_communities-eps-converted-to.pdf, id=287, 736.7525pt x 736.
+<pics/co-authorship_communities-eps-converted-to.pdf, id=290, 736.7525pt x 736.
 7525pt>
 File: pics/co-authorship_communities-eps-converted-to.pdf Graphic file (type pd
 f)
 <use pics/co-authorship_communities-eps-converted-to.pdf>
 Package pdftex.def Info: pics/co-authorship_communities-eps-converted-to.pdf  u
 sed on input line 27.
-(pdftex.def)             Requested size: 589.4028pt x 589.4028pt.
+(pdftex.def)             Requested size: 345.0pt x 344.99214pt.
+ [16
 
-Overfull \hbox (244.4028pt too wide) in paragraph at lines 27--28
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 10.90279pt on input line 29.
-
-[16 <./pics/co-authorship_communities-eps-converted-to.pdf>]
+ <./pics/co-authorship_communities-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/coauthorship_inst_per_partition.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 176350 bytes
@@ -640,14 +624,14 @@ onverted-to.pdf>
 _partition-eps-converted-to.pdf pics/coauthorship_inst_per_partition.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_inst_per_partition-eps-converted-to.pdf, id=294, 380.42125pt
+<pics/coauthorship_inst_per_partition-eps-converted-to.pdf, id=297, 380.42125pt
  x 300.12125pt>
 File: pics/coauthorship_inst_per_partition-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use pics/coauthorship_inst_per_partition-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_inst_per_partition-eps-converted-to.
 pdf  used on input line 34.
-(pdftex.def)             Requested size: 304.3374pt x 240.09732pt.
+(pdftex.def)             Requested size: 151.59692pt x 119.59818pt.
 Package epstopdf Info: Source file: <pics/coauthorship_country_per_partition.ep
 s>
 (epstopdf)                    date: 2025-02-17 07:51:28
@@ -661,18 +645,15 @@ per_partition-eps-converted-to.pdf pics/coauthorship_country_per_partition.eps>
 
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_country_per_partition-eps-converted-to.pdf, id=295, 379.4175
+<pics/coauthorship_country_per_partition-eps-converted-to.pdf, id=298, 379.4175
 pt x 302.12875pt>
 File: pics/coauthorship_country_per_partition-eps-converted-to.pdf Graphic file
  (type pdf)
 <use pics/coauthorship_country_per_partition-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_country_per_partition-eps-converted-
 to.pdf  used on input line 35.
-(pdftex.def)             Requested size: 303.53441pt x 241.70332pt.
+(pdftex.def)             Requested size: 150.18958pt x 119.59818pt.
  [17
-
-
-
 
  <./pics/coauthorship_inst_per_partition-eps-converted-to.pdf> <./pics/coauthor
 ship_country_per_partition-eps-converted-to.pdf>]
@@ -687,14 +668,14 @@ ed-to.pdf>
 rd_1-eps-converted-to.pdf pics/coauthorship_inst_chord_1.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_inst_chord_1-eps-converted-to.pdf, id=304, 431.6125pt x 414.
+<pics/coauthorship_inst_chord_1-eps-converted-to.pdf, id=307, 431.6125pt x 414.
 54875pt>
 File: pics/coauthorship_inst_chord_1-eps-converted-to.pdf Graphic file (type pd
 f)
 <use pics/coauthorship_inst_chord_1-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_inst_chord_1-eps-converted-to.pdf  u
 sed on input line 42.
-(pdftex.def)             Requested size: 345.29045pt x 331.63943pt.
+(pdftex.def)             Requested size: 186.78178pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/coauthorship_inst_chord_2.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 1341277 bytes
@@ -706,14 +687,14 @@ ed-to.pdf>
 rd_2-eps-converted-to.pdf pics/coauthorship_inst_chord_2.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_inst_chord_2-eps-converted-to.pdf, id=305, 425.59pt x 412.54
+<pics/coauthorship_inst_chord_2-eps-converted-to.pdf, id=308, 425.59pt x 412.54
 124pt>
 File: pics/coauthorship_inst_chord_2-eps-converted-to.pdf Graphic file (type pd
 f)
 <use pics/coauthorship_inst_chord_2-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_inst_chord_2-eps-converted-to.pdf  u
 sed on input line 43.
-(pdftex.def)             Requested size: 340.47244pt x 330.03345pt.
+(pdftex.def)             Requested size: 185.07819pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/coauthorship_inst_chord_3.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 1342877 bytes
@@ -725,21 +706,19 @@ ed-to.pdf>
 rd_3-eps-converted-to.pdf pics/coauthorship_inst_chord_3.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_inst_chord_3-eps-converted-to.pdf, id=306, 424.58624pt x 409
+<pics/coauthorship_inst_chord_3-eps-converted-to.pdf, id=309, 424.58624pt x 409
 .53pt>
 File: pics/coauthorship_inst_chord_3-eps-converted-to.pdf Graphic file (type pd
 f)
 <use pics/coauthorship_inst_chord_3-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_inst_chord_3-eps-converted-to.pdf  u
 sed on input line 44.
-(pdftex.def)             Requested size: 339.66945pt x 327.62444pt.
+(pdftex.def)             Requested size: 186.00221pt x 179.40182pt.
+ [18
 
-
-LaTeX Warning: Float too large for page by 422.2973pt on input line 46.
-
-[18 <./pics/coauthorship_inst_chord_1-eps-converted-to.pdf> <./pics/coauthorshi
-p_inst_chord_2-eps-converted-to.pdf> <./pics/coauthorship_inst_chord_3-eps-conv
-erted-to.pdf>]
+ <./pics/coauthorship_inst_chord_1-eps-converted-to.pdf> <./pics/coauthorship_i
+nst_chord_2-eps-converted-to.pdf> <./pics/coauthorship_inst_chord_3-eps-convert
+ed-to.pdf>]
 Package epstopdf Info: Source file: <pics/coauthorship_country_chord_1.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 975586 bytes
@@ -751,14 +730,14 @@ erted-to.pdf>
 chord_1-eps-converted-to.pdf pics/coauthorship_country_chord_1.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_country_chord_1-eps-converted-to.pdf, id=317, 390.45876pt x 
+<pics/coauthorship_country_chord_1-eps-converted-to.pdf, id=320, 390.45876pt x 
 387.4475pt>
 File: pics/coauthorship_country_chord_1-eps-converted-to.pdf Graphic file (type
  pdf)
 <use pics/coauthorship_country_chord_1-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_country_chord_1-eps-converted-to.pdf
   used on input line 51.
-(pdftex.def)             Requested size: 312.36742pt x 309.95842pt.
+(pdftex.def)             Requested size: 180.79883pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/coauthorship_country_chord_2.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 967994 bytes
@@ -770,14 +749,14 @@ erted-to.pdf>
 chord_2-eps-converted-to.pdf pics/coauthorship_country_chord_2.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_country_chord_2-eps-converted-to.pdf, id=318, 395.4775pt x 3
+<pics/coauthorship_country_chord_2-eps-converted-to.pdf, id=321, 395.4775pt x 3
 84.43625pt>
 File: pics/coauthorship_country_chord_2-eps-converted-to.pdf Graphic file (type
  pdf)
 <use pics/coauthorship_country_chord_2-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_country_chord_2-eps-converted-to.pdf
   used on input line 52.
-(pdftex.def)             Requested size: 316.38243pt x 307.54941pt.
+(pdftex.def)             Requested size: 184.55893pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/coauthorship_country_chord_3.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 967991 bytes
@@ -789,21 +768,19 @@ erted-to.pdf>
 chord_3-eps-converted-to.pdf pics/coauthorship_country_chord_3.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
-<pics/coauthorship_country_chord_3-eps-converted-to.pdf, id=319, 390.45876pt x 
+<pics/coauthorship_country_chord_3-eps-converted-to.pdf, id=322, 390.45876pt x 
 384.43625pt>
 File: pics/coauthorship_country_chord_3-eps-converted-to.pdf Graphic file (type
  pdf)
 <use pics/coauthorship_country_chord_3-eps-converted-to.pdf>
 Package pdftex.def Info: pics/coauthorship_country_chord_3-eps-converted-to.pdf
   used on input line 53.
-(pdftex.def)             Requested size: 312.36742pt x 307.54941pt.
+(pdftex.def)             Requested size: 182.21681pt x 179.40182pt.
+ [19
 
-
-LaTeX Warning: Float too large for page by 358.05722pt on input line 55.
-
-[19 <./pics/coauthorship_country_chord_1-eps-converted-to.pdf> <./pics/coauthor
-ship_country_chord_2-eps-converted-to.pdf> <./pics/coauthorship_country_chord_3
--eps-converted-to.pdf>]
+ <./pics/coauthorship_country_chord_1-eps-converted-to.pdf> <./pics/coauthorshi
+p_country_chord_2-eps-converted-to.pdf> <./pics/coauthorship_country_chord_3-ep
+s-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/citation_degree_distribution.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 143576 bytes
@@ -815,14 +792,14 @@ erted-to.pdf>
 ibution-eps-converted-to.pdf pics/citation_degree_distribution.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
-<pics/citation_degree_distribution-eps-converted-to.pdf, id=331, 579.16376pt x 
+<pics/citation_degree_distribution-eps-converted-to.pdf, id=334, 579.16376pt x 
 364.36125pt>
 File: pics/citation_degree_distribution-eps-converted-to.pdf Graphic file (type
  pdf)
 <use pics/citation_degree_distribution-eps-converted-to.pdf>
 Package pdftex.def Info: pics/citation_degree_distribution-eps-converted-to.pdf
   used on input line 60.
-(pdftex.def)             Requested size: 463.33163pt x 291.48938pt.
+(pdftex.def)             Requested size: 190.0995pt x 119.59818pt.
 Package epstopdf Info: Source file: <pics/loglog_citation_degree_distribution.e
 ps>
 (epstopdf)                    date: 2025-02-17 07:51:28
@@ -836,29 +813,18 @@ e_distribution-eps-converted-to.pdf pics/loglog_citation_degree_distribution.ep
 s>
 (epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
-<pics/loglog_citation_degree_distribution-eps-converted-to.pdf, id=332, 479.792
+<pics/loglog_citation_degree_distribution-eps-converted-to.pdf, id=335, 479.792
 5pt x 393.47pt>
 File: pics/loglog_citation_degree_distribution-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use pics/loglog_citation_degree_distribution-eps-converted-to.pdf>
 Package pdftex.def Info: pics/loglog_citation_degree_distribution-eps-converted
 -to.pdf  used on input line 61.
-(pdftex.def)             Requested size: 383.8345pt x 314.77641pt.
+(pdftex.def)             Requested size: 145.83499pt x 119.59818pt.
+ [20
 
-Overfull \hbox (118.33163pt too wide) in paragraph at lines 60--62
- [][] 
- []
-
-
-Overfull \hbox (38.8345pt too wide) in paragraph at lines 60--62
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 28.76578pt on input line 63.
-
-[20 <./pics/citation_degree_distribution-eps-converted-to.pdf> <./pics/loglog_c
-itation_degree_distribution-eps-converted-to.pdf>]
+ <./pics/citation_degree_distribution-eps-converted-to.pdf> <./pics/loglog_cita
+tion_degree_distribution-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/cocitation_communiities.eps>
 (epstopdf)                    date: 2025-02-17 07:51:28
 (epstopdf)                    size: 863142 bytes
@@ -870,23 +836,17 @@ Package epstopdf Info: Source file: <pics/cocitation_communiities.eps>
 es-eps-converted-to.pdf pics/cocitation_communiities.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
-<pics/cocitation_communiities-eps-converted-to.pdf, id=341, 736.7525pt x 736.75
+<pics/cocitation_communiities-eps-converted-to.pdf, id=344, 736.7525pt x 736.75
 25pt>
 File: pics/cocitation_communiities-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pics/cocitation_communiities-eps-converted-to.pdf>
 Package pdftex.def Info: pics/cocitation_communiities-eps-converted-to.pdf  use
 d on input line 68.
-(pdftex.def)             Requested size: 589.4028pt x 589.4028pt.
+(pdftex.def)             Requested size: 345.0pt x 344.99214pt.
+ [21
 
-Overfull \hbox (244.4028pt too wide) in paragraph at lines 68--69
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 10.90279pt on input line 70.
-
-[21 <./pics/cocitation_communiities-eps-converted-to.pdf>]
+ <./pics/cocitation_communiities-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/davis_bouldin.eps>
 (epstopdf)                    date: 2025-02-17 11:01:44
 (epstopdf)                    size: 93722 bytes
@@ -897,12 +857,12 @@ Package epstopdf Info: Source file: <pics/davis_bouldin.eps>
 verted-to.pdf pics/davis_bouldin.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
-<pics/davis_bouldin-eps-converted-to.pdf, id=348, 421.575pt x 333.245pt>
+<pics/davis_bouldin-eps-converted-to.pdf, id=351, 421.575pt x 333.245pt>
 File: pics/davis_bouldin-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/davis_bouldin-eps-converted-to.pdf>
 Package pdftex.def Info: pics/davis_bouldin-eps-converted-to.pdf  used on input
  line 75.
-(pdftex.def)             Requested size: 337.26045pt x 266.59634pt.
+(pdftex.def)             Requested size: 151.29729pt x 119.59818pt.
 Package epstopdf Info: Source file: <pics/calinski.eps>
 (epstopdf)                    date: 2025-02-17 11:01:36
 (epstopdf)                    size: 88611 bytes
@@ -913,17 +873,13 @@ Package epstopdf Info: Source file: <pics/calinski.eps>
 d-to.pdf pics/calinski.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
-<pics/calinski-eps-converted-to.pdf, id=349, 428.60126pt x 332.24126pt>
+<pics/calinski-eps-converted-to.pdf, id=352, 428.60126pt x 332.24126pt>
 File: pics/calinski-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/calinski-eps-converted-to.pdf>
 Package pdftex.def Info: pics/calinski-eps-converted-to.pdf  used on input line
  76.
-(pdftex.def)             Requested size: 342.88147pt x 265.79335pt.
+(pdftex.def)             Requested size: 154.28325pt x 119.59818pt.
  [22
-
-
-
-
 
  <./pics/davis_bouldin-eps-converted-to.pdf> <./pics/calinski-eps-converted-to.
 pdf>]
@@ -937,18 +893,13 @@ Package epstopdf Info: Source file: <pics/wordcloud_1.eps>
 rted-to.pdf pics/wordcloud_1.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<pics/wordcloud_1-eps-converted-to.pdf, id=358, 571.13374pt x 309.155pt>
+<pics/wordcloud_1-eps-converted-to.pdf, id=361, 571.13374pt x 309.155pt>
 File: pics/wordcloud_1-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/wordcloud_1-eps-converted-to.pdf>
 Package pdftex.def Info: pics/wordcloud_1-eps-converted-to.pdf  used on input l
 ine 83.
-(pdftex.def)             Requested size: 456.90762pt x 247.32433pt.
-
-Overfull \hbox (111.90762pt too wide) in paragraph at lines 83--84
- [][] 
- []
-
-[23
+(pdftex.def)             Requested size: 345.0pt x 186.74922pt.
+ [23
 
  <./pics/wordcloud_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/wordcloud_2.eps>
@@ -961,18 +912,13 @@ Package epstopdf Info: Source file: <pics/wordcloud_2.eps>
 rted-to.pdf pics/wordcloud_2.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
-<pics/wordcloud_2-eps-converted-to.pdf, id=365, 571.13374pt x 309.155pt>
+<pics/wordcloud_2-eps-converted-to.pdf, id=368, 571.13374pt x 309.155pt>
 File: pics/wordcloud_2-eps-converted-to.pdf Graphic file (type pdf)
 <use pics/wordcloud_2-eps-converted-to.pdf>
 Package pdftex.def Info: pics/wordcloud_2-eps-converted-to.pdf  used on input l
 ine 90.
-(pdftex.def)             Requested size: 456.90762pt x 247.32433pt.
-
-Overfull \hbox (111.90762pt too wide) in paragraph at lines 90--91
- [][] 
- []
-
-[24
+(pdftex.def)             Requested size: 345.0pt x 186.74922pt.
+ [24
 
  <./pics/wordcloud_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/main_concept_trend_toplevel.eps>
@@ -986,20 +932,15 @@ rted-to.pdf>
 plevel-eps-converted-to.pdf pics/main_concept_trend_toplevel.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
-<pics/main_concept_trend_toplevel-eps-converted-to.pdf, id=372, 822.07124pt x 3
+<pics/main_concept_trend_toplevel-eps-converted-to.pdf, id=375, 822.07124pt x 3
 74.39874pt>
 File: pics/main_concept_trend_toplevel-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use pics/main_concept_trend_toplevel-eps-converted-to.pdf>
 Package pdftex.def Info: pics/main_concept_trend_toplevel-eps-converted-to.pdf 
  used on input line 97.
-(pdftex.def)             Requested size: 657.65788pt x 299.5194pt.
-
-Overfull \hbox (312.65788pt too wide) in paragraph at lines 97--98
- [][] 
- []
-
-[25
+(pdftex.def)             Requested size: 345.0pt x 157.12071pt.
+ [25
 
  <./pics/main_concept_trend_toplevel-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/main_concept_trend_lowerlevels.eps>
@@ -1013,23 +954,18 @@ nverted-to.pdf>
 werlevels-eps-converted-to.pdf pics/main_concept_trend_lowerlevels.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<pics/main_concept_trend_lowerlevels-eps-converted-to.pdf, id=380, 803.0pt x 53
+<pics/main_concept_trend_lowerlevels-eps-converted-to.pdf, id=383, 803.0pt x 53
 3.995pt>
 File: pics/main_concept_trend_lowerlevels-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use pics/main_concept_trend_lowerlevels-eps-converted-to.pdf>
 Package pdftex.def Info: pics/main_concept_trend_lowerlevels-eps-converted-to.p
 df  used on input line 104.
-(pdftex.def)             Requested size: 642.40088pt x 427.19658pt.
-
-Overfull \hbox (297.40088pt too wide) in paragraph at lines 104--105
- [][] 
- []
-
+(pdftex.def)             Requested size: 345.0pt x 229.42596pt.
 ) [26
 
- <./pics/main_concept_trend_lowerlevels-eps-converted-to.pdf>]
-(./dx_in_shipping.lot)
+ <./pics/main_concept_trend_lowerlevels-eps-converted-to.pdf>] (./dx_in_shippin
+g.lot)
 \tf@lot=\write8
 \openout8 = `dx_in_shipping.lot'.
 
@@ -1041,8 +977,58 @@ Overfull \hbox (297.40088pt too wide) in paragraph at lines 104--105
 ] [29
 
 ]
-Overfull \hbox (107.88977pt too wide) in paragraph at lines 68--95
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Wuhan Uni-ver-sity of
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Norwegian Uni-ver-sity of
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Shanghai Mar-itime Uni-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Nanyang Tech-no-log-i-cal
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Hong Kong Poly-tech-nic
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Liverpool John Moores
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Universidad Polit^^Secnica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Korea Mar-itime and
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 Zhejiang Ocean Uni-ver-
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 National Tech-ni-cal Uni-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10 University of South-
  []
 
 [30
@@ -1050,45 +1036,151 @@ Overfull \hbox (107.88977pt too wide) in paragraph at lines 68--95
 ] [31
 
 ]
-Overfull \hbox (505.44617pt too wide) in paragraph at lines 134--151
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/10 Publication
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1080 /
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 dus-try: a bib-lio-met-ric re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 3390 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/10 Comprehensive Anal-y-sis
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 of Mar-itime Cy-ber-se-cu-rity
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 Land-scape Based on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1016 /
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 nol-ogy ap-pli-ca-tions, fu-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1080 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 3390 /
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 ship-ping and green ports:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1016 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1109 /
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 fore-cast-ing tech-nolo-gies in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 3390 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/10 Toward Dig-i-tal-iza-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 3390 /
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 sur-vey of re-cent ad-vances
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 3390 /
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/10 Digitalization in mar-itime
  []
 
 [32
 
 ]
-Overfull \hbox (993.9472pt too wide) in paragraph at lines 157--172
- [][] 
+Underfull \hbox (badness 4072) in paragraph at lines 170--170
+[]|\OT1/cmr/m/n/10 Digital trans-for-ma-tion and tech-no-log-i-cal ad-vance-men
+ts
  []
 
 [33
 
 ]
-Overfull \hbox (146.75092pt too wide) in paragraph at lines 178--195
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/cmr/m/n/10 Artificial in-tel-li-gence,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+\OT1/cmr/m/n/10 sus-tain-able ship-ping,
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 193--193
+[]|\OT1/cmr/m/n/10 Blockchain con-cep-tual
  []
 
 [34
 
-]
-Overfull \hbox (3087.91588pt too wide) in paragraph at lines 201--214
- [][] 
- []
-
-) [35
+]) [35
 
 ] (./dx_in_shipping.aux)
 Package rerunfilecheck Info: File `dx_in_shipping.out' has not changed.
 (rerunfilecheck)             Checksum: C5D84C41F635D625009F8F589750EB3B;2343.
  ) 
 Here is how much of TeX's memory you used:
- 11775 strings out of 480171
- 193364 string characters out of 5894489
- 479460 words of memory out of 5000000
- 29457 multiletter control sequences out of 15000+600000
- 473639 words of font info for 43 fonts, out of 8000000 for 9000
+ 11905 strings out of 480171
+ 195487 string characters out of 5894489
+ 490536 words of memory out of 5000000
+ 29580 multiletter control sequences out of 15000+600000
+ 473807 words of font info for 44 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 70i,9n,76p,1111b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,11n,76p,1129b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
@@ -1099,11 +1191,11 @@ e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8
-.pfb>
-Output written on dx_in_shipping.pdf (35 pages, 4095213 bytes).
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on dx_in_shipping.pdf (35 pages, 4110023 bytes).
 PDF statistics:
- 504 PDF objects out of 1000 (max. 8388607)
- 393 compressed objects within 4 object streams
+ 553 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
  102 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

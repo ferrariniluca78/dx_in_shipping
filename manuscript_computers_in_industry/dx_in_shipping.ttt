@@ -1,7 +1,7 @@
 \begin{table}[h]
 \centering
 \caption{List of keywords identified by experts.}
-\begin{tabular}{l c}
+\begin{tabularx}{\linewidth}{XX}
 \hline
 Keyword& Type (Digit. Trans. or Shipping) \\
 \hline
@@ -41,7 +41,7 @@ Port digitalization & Shipping \\
 Port automation & Shipping \\
 Vessel performance & Shipping \\
 \hline
-\end{tabular}
+\end{tabularx}
 \label{tab:keywords}
 \end{table}
 \efloatseparator
@@ -49,7 +49,7 @@ Vessel performance & Shipping \\
 \begin{table}[h]
 \centering
 \caption{Number of retrieved articles per research engine.}
-\begin{tabular}{l c}
+\begin{tabularx}{\linewidth}{XX}
 \hline
 Engine & No. of scientific articles \\
 \hline
@@ -57,7 +57,7 @@ EBSCO & 1904 \\
 ProQuest & 2011 \\
 IEEE eXplore & 300 \\
 \hline
-\end{tabular}
+\end{tabularx}
 \label{tab:searchres}
 \end{table}
 \efloatseparator
@@ -65,7 +65,7 @@ IEEE eXplore & 300 \\
 \begin{table}[h]
 \centering
 \caption{Distribution of publications across institutions.}
-\begin{tabular}{r c c c}
+\begin{tabularx}{\linewidth}{p{4cm}XXp{2cm}}
 \hline
 Institution & No. of publications & Cumulative \% & \% Of total \\
 \hline
@@ -90,7 +90,7 @@ National Technical University of Athens & 11 & 20.29 & 0.55\\
 University of South-Eastern Norway & 10 & 20.79 & 0.50\\
 Aalto University & 10 & 21.28 & 0.50\\
 \hline
-\end{tabular}
+\end{tabularx}
 \label{tab:resdescinst}
 \end{table}
 \efloatseparator
@@ -98,7 +98,7 @@ Aalto University & 10 & 21.28 & 0.50\\
 \begin{table}[h]
 \centering
 \caption{Distribution of publications across countries.}
-\begin{tabular}{r c c c}
+\begin{tabularx}{\linewidth}{XXXX}
 \hline
 Country ISO & No. of publications & Cumulative \% & \% Of total \\
 \hline
@@ -123,7 +123,7 @@ SE & 30 & 76.61 & 1.50\\
 FI & 29 & 78.05 & 1.45\\
 JP & 26 & 79.35 & 1.30\\
 \hline
-\end{tabular}
+\end{tabularx}
 \label{tab:resdesccountry}
 \end{table}
 \efloatseparator
@@ -131,22 +131,22 @@ JP & 26 & 79.35 & 1.30\\
 \begin{table}[h]
 \centering
 \caption{Top 10 influential papers based on citations.}
-\begin{tabular}{l l c}
+\begin{tabularx}{\linewidth}{XXp{2cm}}
 \hline
 DOI & Title & Publication Year\\
 \hline
-https://doi.org/10.1080/03088839.2020.1788731 & Big data and artificial intelligence in the maritime industry: a bibliometric review and future research directions & 2020\\
-https://doi.org/10.3390/jmse12060919 & Comprehensive Analysis of Maritime Cybersecurity Landscape Based on the NIST CSF v2. 0 & 2024\\
-https://doi.org/10.1016/j.tre.2019.09.020 & Maritime shipping digitalization: Blockchain-based technology applications, future improvements, and intention to use & 2019\\
-https://doi.org/10.1080/01441647.2019.1649315 & How big data enriches maritime research–a critical review of Automatic Identification System (AIS) data applications & 2019\\
-https://doi.org/10.3390/app14145994 & Harnessing AI for sustainable shipping and green ports: Challenges and opportunities & 2024\\
-https://doi.org/10.1016/j.ijcip.2022.100571 & Developments and research directions in maritime cybersecurity: A systematic literature review and bibliometric analysis & 2022\\
-https://doi.org/10.1109/tits.2019.2908191 & Traffic pattern mining and forecasting technologies in maritime traffic service networks: A comprehensive survey & 2019\\
-https://doi.org/10.3390/s19040926 & Toward Digitalization of Maritime Transport? & 2019\\
-https://doi.org/10.3390/info13010022 & Cyber security in the maritime industry: A systematic survey of recent advances and future trends & 2022\\
-https://doi.org/10.3390/jmse10040486 & Digitalization in maritime transport and seaports: bibliometric, content and thematic analysis & 2022\\
+\url{https://doi.org/10.1080/03088839.2020.1788731} & Big data and artificial intelligence in the maritime industry: a bibliometric review and future research directions & 2020\\
+\url{https://doi.org/10.3390/jmse12060919} & Comprehensive Analysis of Maritime Cybersecurity Landscape Based on the NIST CSF v2. 0 & 2024\\
+\url{https://doi.org/10.1016/j.tre.2019.09.020} & Maritime shipping digitalization: Blockchain-based technology applications, future improvements, and intention to use & 2019\\
+\url{https://doi.org/10.1080/01441647.2019.1649315} & How big data enriches maritime research–a critical review of Automatic Identification System (AIS) data applications & 2019\\
+\url{https://doi.org/10.3390/app14145994} & Harnessing AI for sustainable shipping and green ports: Challenges and opportunities & 2024\\
+\url{https://doi.org/10.1016/j.ijcip.2022.100571} & Developments and research directions in maritime cybersecurity: A systematic literature review and bibliometric analysis & 2022\\
+\url{https://doi.org/10.1109/tits.2019.2908191} & Traffic pattern mining and forecasting technologies in maritime traffic service networks: A comprehensive survey & 2019\\
+\url{https://doi.org/10.3390/s19040926} & Toward Digitalization of Maritime Transport? & 2019\\
+\url{https://doi.org/10.3390/info13010022} & Cyber security in the maritime industry: A systematic survey of recent advances and future trends & 2022\\
+\url{https://doi.org/10.3390/jmse10040486} & Digitalization in maritime transport and seaports: bibliometric, content and thematic analysis & 2022\\
 \hline
-\end{tabular}
+\end{tabularx}
 \label{tab:citationtoppapers}
 \end{table}
 \efloatseparator
@@ -154,7 +154,7 @@ https://doi.org/10.3390/jmse10040486 & Digitalization in maritime transport and 
 \begin{table}[h]
 \centering
 \caption{Community-based topic analysis}
-\begin{tabular}{l l c}
+\begin{tabularx}{\linewidth}{p{2cm}X}
 \hline
 Community & Main theme \\
 \hline
@@ -167,7 +167,7 @@ Community & Main theme \\
 7 & Maritime cybersecurity, with an emphasis on cyber risks associated with the digital transformation of the maritime industry, particularly as it pertains to the rise of autonomous vessels, smart shipping technologies, and the IoT-enabled maritime environment.\\
 8 & Adoption and application of blockchain technology in the maritime industry, specifically in areas like shipping, supply chains, and port management.\\
 \hline
-\end{tabular}
+\end{tabularx}
 \label{tab:citationthemes}
 \end{table}
 \efloatseparator
@@ -175,7 +175,7 @@ Community & Main theme \\
 \begin{table}[h]
 \centering
 \caption{Centrality-based topic analysis.}
-\begin{tabular}{l l c}
+\begin{tabularx}{\linewidth}{XXX}
 \hline
 OpenAlex ID & Top 5 in N centrality measures & Main topic \\
 \hline
@@ -190,7 +190,7 @@ W3090216936 & 1 & Blockchain conceptual framework\\
 W4205557186 & 1 & Cybersecurity\\
 W3213918042 & 1 & Blockchain\\
 \hline
-\end{tabular}
+\end{tabularx}
 \label{tab:citationcentrality}
 \end{table}
 \efloatseparator
@@ -198,17 +198,17 @@ W3213918042 & 1 & Blockchain\\
 \begin{table}[h]
 \centering
 \caption{Results of thematic analysis.}
-\begin{tabular}{l}
+\begin{tabularx}{\linewidth}{X}
 \hline
-\textbf{Topic 1: Advancements in AI and Machine Learning for Maritime Applications}. This topic explores the integration of advanced AI techniques in the maritime sector, focusing on automation, situational awareness, and safety. Articles discuss multi-scale object detection models for autonomous ship navigation and the use of UAVs for data collection and surveillance. Research includes adaptive data fusion for vessel trajectory prediction and machine learning frameworks for maritime anomaly detection, such as sensor-based monitoring systems and beamforming for communication. The use of explainable AI frameworks for anomaly detection and multi-task learning for vessel draft reading emphasizes intelligent decision-making and safety in maritime operations.\\ 
-\textbf{Topic 2: Spatial and Environmental Analysis in Maritime and Inland Waters}. This topic focuses on the intersection of spatial data analysis, environmental monitoring, and maritime operations. Studies include remote sensing for water monitoring, spatial planning for offshore wind energy, and machine learning applications in greenhouse gas emission modeling. Research spans risk assessment for maritime transportation, air quality forecasting, and maritime accidents influenced by environmental factors like sea fog. The use of geographically weighted regression and big data for analyzing maritime transportation reflects a growing trend in environmental and geospatial analytics.\\ 
-\textbf{Topic 3: Predictive Modeling and Risk Assessment in Maritime Operations.} This topic delves into predictive models and analytics for enhancing safety and efficiency in maritime activities. Research highlights fuel consumption modeling, arrival time prediction, and the trust dynamics in supervising autonomous ships. Big data and machine learning approaches are employed for evaluating ship grounding risks, collision probability, and traffic safety. Several articles focus on in-depth traffic and economic analyses, emphasizing data-driven decision-making in maritime operations.\\ 
-\textbf{Topic 4: Data-Driven Optimization in Maritime Engineering and Traffic Management.} This topic addresses the use of data-driven and AI approaches in ship design, traffic prediction, and environmental forecasting. Articles discuss applications of machine learning, such as predicting wave heights, optimizing ship design under uncertainty, and evaluating traffic in multi-port systems. Risk assessment of sea lanes and carbon emission forecasting highlight the push toward sustainable and efficient maritime engineering solutions.\\ 
-\textbf{Topic 5: Blockchain and Edge Computing in Maritime Operations.} This topic investigates the application of blockchain and edge computing technologies in maritime logistics and communication. Research focuses on blockchain-enabled vulnerability detection, data integrity, and privacy-preserving data sharing. Articles highlight innovative use cases, such as smart contracts for shipping efficiency, decentralized anomaly detection systems, and reliable communication frameworks. These technologies aim to enhance maritime transport security, efficiency, and data transparency.\\ 
-\textbf{Topic 6: Innovations and Reviews in Autonomous and Smart Shipping.} This topic reviews the state of autonomous and smart shipping technologies, exploring their implications for design, safety, and logistics. Studies analyze machine learning in sustainable ship design, the current status of MASS (Maritime Autonomous Surface Ships) technologies, and digital twins for shipboard systems. Articles also examine functional suitability assessments of smart contracts and the bibliometric review of risk and reliability in autonomous systems. These discussions highlight the transformative potential of digitalization in maritime logistics.\\ 
-\textbf{Topic 7: Digital Transformation and Sustainability in Maritime Logistics.} This topic focuses on the digitalization of maritime operations and its impact on sustainability and efficiency. Articles explore blockchain’s role in digital transformation, automation's impact on gender parity, and renewable energy adoption in seaports. The use of deep learning for vessel trajectory prediction and intelligent supervision through network analysis underscores the push for smart maritime systems. The integration of data spaces and IoT technologies highlights innovative solutions for managing logistics and maritime operations sustainably.\\ 
-\textbf{Topic 8: Maritime Industry’s Adaptation to Digital and Sustainable Practices.} This topic explores the maritime industry's response to emerging technologies and sustainability challenges. Articles examine digital transformation strategies, blockchain adoption, and risk management performance in start-ups. Studies analyze sustainability reports and explore environmental risks through a 20-year analysis of maritime accidents. Research emphasizes co-creation in operations management, addressing sustainability goals through technological and organizational innovations.\\
-\hline
-\end{tabular}
+\textbf{Topic 1: Advancements in AI and Machine Learning for Maritime Applications}. This topic explores the integration of advanced AI techniques in the maritime sector, focusing on automation, situational awareness, and safety.\\ 
+\textbf{Topic 2: Spatial and Environmental Analysis in Maritime and Inland Waters}. This topic focuses on the intersection of spatial data analysis, environmental monitoring, and maritime operations.\\ 
+\textbf{Topic 3: Predictive Modeling and Risk Assessment in Maritime Operations.} This topic delves into predictive models and analytics for enhancing safety and efficiency in maritime activities.\\ 
+\textbf{Topic 4: Data-Driven Optimization in Maritime Engineering and Traffic Management.} This topic addresses the use of data-driven and AI approaches in ship design, traffic prediction, and environmental forecasting.\\ 
+\textbf{Topic 5: Blockchain and Edge Computing in Maritime Operations.} This topic investigates the application of blockchain and edge computing technologies in maritime logistics and communication.\\ 
+\textbf{Topic 6: Innovations and Reviews in Autonomous and Smart Shipping.} This topic reviews the state of autonomous and smart shipping technologies, exploring their implications for design, safety, and logistics.\\ 
+\textbf{Topic 7: Digital Transformation and Sustainability in Maritime Logistics.} This topic focuses on the digitalization of maritime operations and its impact on sustainability and efficiency.\\ 
+\textbf{Topic 8: Maritime Industry’s Adaptation to Digital and Sustainable Practices.} This topic explores the maritime industry's response to emerging technologies and sustainability challenges.\\
+\hline 
+\end{tabularx}
 \label{tab:thematic}
 \end{table}

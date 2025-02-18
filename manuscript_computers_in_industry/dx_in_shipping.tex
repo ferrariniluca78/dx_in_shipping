@@ -6,6 +6,8 @@
 \usepackage{graphicx} % For including images
 \usepackage{hyperref} % For clickable links
 \usepackage{caption}
+\usepackage{tabularx}
+\usepackage{hyperref}
 
 % Title, author, and affiliation
 \title{Digital Transformation in the Shipping Industry: a Network-Based Systematic Review}
@@ -60,7 +62,7 @@
 	\begin{table}[h]
 		\centering
 		\caption{List of keywords identified by experts.}
-		\begin{tabular}{l c}
+		\begin{tabularx}{\linewidth}{XX}
 			\hline
 			Keyword& Type (Digit. Trans. or Shipping) \\
 			\hline
@@ -100,7 +102,7 @@
 			Port automation & Shipping \\
 			Vessel performance & Shipping \\
 			\hline
-		\end{tabular}
+		\end{tabularx}
 		\label{tab:keywords}
 	\end{table}
 	
@@ -109,7 +111,7 @@
 	\begin{table}[h]
 		\centering
 		\caption{Number of retrieved articles per research engine.}
-		\begin{tabular}{l c}
+		\begin{tabularx}{\linewidth}{XX}
 			\hline
 			Engine & No. of scientific articles \\
 			\hline
@@ -117,7 +119,7 @@
 			ProQuest & 2011 \\
 			IEEE eXplore & 300 \\
 			\hline
-		\end{tabular}
+		\end{tabularx}
 		\label{tab:searchres}
 	\end{table}
 	
@@ -160,7 +162,7 @@
 		\item removal of non alpha-numeric text.
 	\end{enumerate}
 	Next, we applied tokenization and embedded each title using BERT \citep{devlin2018bert}. The resulting vectors were analyzed for unsupervised clustering. More specifically, we adopted two methods to identify the ideal number of clusters: the Calinski-Harabasz index \citep{calinski1974dendrite}, and the Davies-Bouldin index \citep{davies1979cluster}.
-	Having identified the best number of cluster, we applied the unsupervised K-means algorithm and calculated the centroid for each cluster.
+	Having identified the best number of zcluster, we applied the unsupervised K-means algorithm and calculated the centroid for each cluster.
 	Next, we identified for each cluster the 10 articles closest to the corresponding centroid and applied BERTTopic to extract the common themes.
 	
 	We concluded our thematic analysis by building two word clouds. Using both titles and abstracts from all articles, we applied the TF-IDF algorithm to each word and use it as weight when building the clouds. The first cloud was built over the entire set of words in titles and abstracts, while the second cloud was built after removing all shipping related terms (hence focusing on the digital technologies only).
@@ -173,7 +175,7 @@
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/no_publications_year.eps}
+		\includegraphics[width=\linewidth]{pics/no_publications_year.eps}
 		\caption{Distribution of publications across years}\label{fig:fig1}
 	\end{figure}
 	
@@ -181,16 +183,16 @@
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/leading_authors.eps}
-		\includegraphics[scale=0.8]{pics/leading_institutions.eps}
-		\includegraphics[scale=0.8]{pics/leading_countries.eps}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/leading_authors.eps}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/leading_institutions.eps}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/leading_countries.eps}
 		\caption{Top 20 leading authors (\textit{top}), institutions (\textit{middle}), and countries (\textit{bottom})}\label{fig:fig2}
 	\end{figure}
 	
 	\begin{table}[h]
 		\centering
 		\caption{Distribution of publications across institutions.}
-		\begin{tabular}{r c c c}
+		\begin{tabularx}{\linewidth}{p{4cm}XXp{2cm}}
 			\hline
 			Institution & No. of publications & Cumulative \% & \% Of total \\
 			\hline
@@ -215,14 +217,14 @@
 			University of South-Eastern Norway & 10 & 20.79 & 0.50\\
 			Aalto University & 10 & 21.28 & 0.50\\
 			\hline
-		\end{tabular}
+		\end{tabularx}
 		\label{tab:resdescinst}
 	\end{table}
 
 	\begin{table}[h]
 		\centering
 		\caption{Distribution of publications across countries.}
-		\begin{tabular}{r c c c}
+		\begin{tabularx}{\linewidth}{XXXX}
 			\hline
 			Country ISO & No. of publications & Cumulative \% & \% Of total \\
 			\hline
@@ -247,7 +249,7 @@
 			FI & 29 & 78.05 & 1.45\\
 			JP & 26 & 79.35 & 1.30\\
 			\hline
-		\end{tabular}
+		\end{tabularx}
 		\label{tab:resdesccountry}
 	\end{table}
 
@@ -256,40 +258,40 @@
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/coauthorship_degree_distribution.eps}
-		\includegraphics[scale=0.8]{pics/coauthorship_degree_distribution_loglog_chart.eps}
+		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_degree_distribution.eps}
+		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_degree_distribution_loglog_chart.eps}
 		\caption{Co-authorship degree distribution (\textit{top}), and corresponding log-log chart (\textit{bottom})}\label{fig:fig3}
 	\end{figure}
 	
-	As a second step in our co-authorship network analysis, we identified the largest component of the network (made of 2753 authors), and identified its main communities, using the Louvain algorithm \citep{blondel2008fast}. We identified 28 communities (see Fig. \ref{fig:fig4}), and map on them the distribution of institutions and countries linked to the authors. Results highlight a high level of international collaborations within each community, as well as a high level of national collaborations (within the same country). This can be seen in Figure \ref{fig:fig5}, where we show the number of different countries and institutions per community. Furthermore, our network analysis does not show and closed cluster of collaborations. Communities are all well inter-connected, suggesting that the niche nature of this field (i.e., digital transformation in shipping) leads global actors to collaborate extensively in advancing research. In Figure [XXX] and Figure [XXX] we show the chord charts for both country and institution mapping on the co-authorship communities.
+	As a second step in our co-authorship network analysis, we identified the largest component of the network (made of 2753 authors), and identified its main communities, using the Louvain algorithm \citep{blondel2008fast}. We identified 28 communities (see Fig. \ref{fig:fig4}), and map on them the distribution of institutions and countries linked to the authors. Results highlight a high level of international collaborations within each community, as well as a high level of national collaborations (within the same country). This can be seen in Figure \ref{fig:fig5}, where we show the number of different countries and institutions per community. Furthermore, our network analysis does not show and closed cluster of collaborations. Communities are all well inter-connected, suggesting that the niche nature of this field (i.e., digital transformation in shipping) leads global actors to collaborate extensively in advancing research. In Figure \ref{fig:fig6} and Figure \ref{fig:fig7} we show the chord charts for both country and institution mapping on the co-authorship communities.
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/co-authorship_communities.eps}
+		\includegraphics[width=\linewidth]{pics/co-authorship_communities.eps}
 		\caption{Co-authorship network with communities}\label{fig:fig4}
 	\end{figure}
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/coauthorship_inst_per_partition.eps}
-		\includegraphics[scale=0.8]{pics/coauthorship_country_per_partition.eps}
+		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_inst_per_partition.eps}
+		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_country_per_partition.eps}
 		\caption{Co-authorship distribution of insitutions (\textit{top}) and countries (\textit{bottom}) across partitions}\label{fig:fig5}
 	\end{figure}
 
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_1.eps}
-		\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_2.eps}
-		\includegraphics[scale=0.8]{pics/coauthorship_inst_chord_3.eps}
-		\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) XXX, (\textit{middle}) XXX, and (\textit{bottom}) XXX}\label{fig:fig6}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_1.eps}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_2.eps}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_3.eps}
+		\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) Whuan University of Technology, (\textit{middle}) Shanghai Maritime University, and (\textit{bottom}) Dalian Maritime University}\label{fig:fig6}
 	\end{figure}
 
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/coauthorship_country_chord_1.eps}
-		\includegraphics[scale=0.8]{pics/coauthorship_country_chord_2.eps}
-		\includegraphics[scale=0.8]{pics/coauthorship_country_chord_3.eps}
-		\caption{Chord diagrams for countries mapping on co-authorship communities. The three diagrams show three relevant clusters:(\textit{top}) XXX, (\textit{middle}), and (\textit{bottom}) XXX}\label{fig:fig7}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_country_chord_1.eps}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_country_chord_2.eps}
+		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_country_chord_3.eps}
+		\caption{Chord diagrams for countries mapping on co-authorship communities. The three diagrams show three relevant clusters:(\textit{top}) China, (\textit{middle}) Singapore, and (\textit{bottom}) Great Britain}\label{fig:fig7}
 	\end{figure}
 	
 	Lastly, we evaluated the small-world properties of the co-authorship network. To do so, we calculated both clustering coefficient and average path length, and compare them with equivalent random networks. Our results show a higher clustering coefficient (0.83 vs 0.007) and a higher average path (7.1 vs. 3.9). In a proper small-world topology, one would expect high clustering coefficient and small average path. Our results, instead, suggest that communities are strongly locally organized, but somehow lack efficiency in cross community communication.
@@ -299,8 +301,8 @@
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/citation_degree_distribution.eps}
-		\includegraphics[scale=0.8]{pics/loglog_citation_degree_distribution.eps}
+		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/citation_degree_distribution.eps}
+		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/loglog_citation_degree_distribution.eps}
 		\caption{Co-citation degree distribution and log-log chart} \label{fig:fig8}
 	\end{figure}
 	
@@ -309,22 +311,22 @@
 	\begin{table}[h]
 		\centering
 		\caption{Top 10 influential papers based on citations.}
-		\begin{tabular}{l l c}
+		\begin{tabularx}{\linewidth}{XXp{2cm}}
 			\hline
 			DOI & Title & Publication Year\\
 			\hline
-			https://doi.org/10.1080/03088839.2020.1788731 & Big data and artificial intelligence in the maritime industry: a bibliometric review and future research directions & 2020\\
-			https://doi.org/10.3390/jmse12060919 & Comprehensive Analysis of Maritime Cybersecurity Landscape Based on the NIST CSF v2. 0 & 2024\\
-			https://doi.org/10.1016/j.tre.2019.09.020 & Maritime shipping digitalization: Blockchain-based technology applications, future improvements, and intention to use & 2019\\
-			https://doi.org/10.1080/01441647.2019.1649315 & How big data enriches maritime research–a critical review of Automatic Identification System (AIS) data applications & 2019\\
-			https://doi.org/10.3390/app14145994 & Harnessing AI for sustainable shipping and green ports: Challenges and opportunities & 2024\\
-			https://doi.org/10.1016/j.ijcip.2022.100571 & Developments and research directions in maritime cybersecurity: A systematic literature review and bibliometric analysis & 2022\\
-			https://doi.org/10.1109/tits.2019.2908191 & Traffic pattern mining and forecasting technologies in maritime traffic service networks: A comprehensive survey & 2019\\
-			https://doi.org/10.3390/s19040926 & Toward Digitalization of Maritime Transport? & 2019\\
-			https://doi.org/10.3390/info13010022 & Cyber security in the maritime industry: A systematic survey of recent advances and future trends & 2022\\
-			https://doi.org/10.3390/jmse10040486 & Digitalization in maritime transport and seaports: bibliometric, content and thematic analysis & 2022\\
+			\url{https://doi.org/10.1080/03088839.2020.1788731} & Big data and artificial intelligence in the maritime industry: a bibliometric review and future research directions & 2020\\
+			\url{https://doi.org/10.3390/jmse12060919} & Comprehensive Analysis of Maritime Cybersecurity Landscape Based on the NIST CSF v2. 0 & 2024\\
+			\url{https://doi.org/10.1016/j.tre.2019.09.020} & Maritime shipping digitalization: Blockchain-based technology applications, future improvements, and intention to use & 2019\\
+			\url{https://doi.org/10.1080/01441647.2019.1649315} & How big data enriches maritime research–a critical review of Automatic Identification System (AIS) data applications & 2019\\
+			\url{https://doi.org/10.3390/app14145994} & Harnessing AI for sustainable shipping and green ports: Challenges and opportunities & 2024\\
+			\url{https://doi.org/10.1016/j.ijcip.2022.100571} & Developments and research directions in maritime cybersecurity: A systematic literature review and bibliometric analysis & 2022\\
+			\url{https://doi.org/10.1109/tits.2019.2908191} & Traffic pattern mining and forecasting technologies in maritime traffic service networks: A comprehensive survey & 2019\\
+			\url{https://doi.org/10.3390/s19040926} & Toward Digitalization of Maritime Transport? & 2019\\
+			\url{https://doi.org/10.3390/info13010022} & Cyber security in the maritime industry: A systematic survey of recent advances and future trends & 2022\\
+			\url{https://doi.org/10.3390/jmse10040486} & Digitalization in maritime transport and seaports: bibliometric, content and thematic analysis & 2022\\
 			\hline
-		\end{tabular}
+		\end{tabularx}
 		\label{tab:citationtoppapers}
 	\end{table}
 	
@@ -332,14 +334,14 @@
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/cocitation_communiities.eps}
+		\includegraphics[width=\linewidth]{pics/cocitation_communiities.eps}
 		\caption{Co-citation network with communities}\label{fig:fig9}
 	\end{figure}
 	
 	\begin{table}[h]
 		\centering
 		\caption{Community-based topic analysis}
-		\begin{tabular}{l l c}
+		\begin{tabularx}{\linewidth}{p{2cm}X}
 			\hline
 			Community & Main theme \\
 			\hline
@@ -352,7 +354,7 @@
 			7 & Maritime cybersecurity, with an emphasis on cyber risks associated with the digital transformation of the maritime industry, particularly as it pertains to the rise of autonomous vessels, smart shipping technologies, and the IoT-enabled maritime environment.\\
 			8 & Adoption and application of blockchain technology in the maritime industry, specifically in areas like shipping, supply chains, and port management.\\
 			\hline
-		\end{tabular}
+		\end{tabularx}
 		\label{tab:citationthemes}
 	\end{table}
 	
@@ -361,7 +363,7 @@
 	\begin{table}[h]
 		\centering
 		\caption{Centrality-based topic analysis.}
-		\begin{tabular}{l l c}
+		\begin{tabularx}{\linewidth}{XXX}
 			\hline
 			OpenAlex ID & Top 5 in N centrality measures & Main topic \\
 			\hline
@@ -376,7 +378,7 @@
 			W4205557186	& 1 & Cybersecurity\\
 			W3213918042	& 1 & Blockchain\\
 			\hline
-		\end{tabular}
+		\end{tabularx}
 		\label{tab:citationcentrality}
 	\end{table}
 		
@@ -385,40 +387,40 @@
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/davis_bouldin.eps}
-		\includegraphics[scale=0.8]{pics/calinski.eps}
+		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/davis_bouldin.eps}
+		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/calinski.eps}
 		\caption{Davies-Bouldin (\text{top}) and Calinski-Harabasz (\textit{bottom}) indexes.}\label{fig:fig10}
 	\end{figure}
-	
+		
 	\begin{table}[h]
 		\centering
 		\caption{Results of thematic analysis.}
-		\begin{tabular}{l}
+		\begin{tabularx}{\linewidth}{X}
 			\hline
-			\textbf{Topic 1: Advancements in AI and Machine Learning for Maritime Applications}. This topic explores the integration of advanced AI techniques in the maritime sector, focusing on automation, situational awareness, and safety. Articles discuss multi-scale object detection models for autonomous ship navigation and the use of UAVs for data collection and surveillance. Research includes adaptive data fusion for vessel trajectory prediction and machine learning frameworks for maritime anomaly detection, such as sensor-based monitoring systems and beamforming for communication. The use of explainable AI frameworks for anomaly detection and multi-task learning for vessel draft reading emphasizes intelligent decision-making and safety in maritime operations.\\			
-			\textbf{Topic 2: Spatial and Environmental Analysis in Maritime and Inland Waters}. This topic focuses on the intersection of spatial data analysis, environmental monitoring, and maritime operations. Studies include remote sensing for water monitoring, spatial planning for offshore wind energy, and machine learning applications in greenhouse gas emission modeling. Research spans risk assessment for maritime transportation, air quality forecasting, and maritime accidents influenced by environmental factors like sea fog. The use of geographically weighted regression and big data for analyzing maritime transportation reflects a growing trend in environmental and geospatial analytics.\\			
-			\textbf{Topic 3: Predictive Modeling and Risk Assessment in Maritime Operations.} This topic delves into predictive models and analytics for enhancing safety and efficiency in maritime activities. Research highlights fuel consumption modeling, arrival time prediction, and the trust dynamics in supervising autonomous ships. Big data and machine learning approaches are employed for evaluating ship grounding risks, collision probability, and traffic safety. Several articles focus on in-depth traffic and economic analyses, emphasizing data-driven decision-making in maritime operations.\\			
-			\textbf{Topic 4: Data-Driven Optimization in Maritime Engineering and Traffic Management.} This topic addresses the use of data-driven and AI approaches in ship design, traffic prediction, and environmental forecasting. Articles discuss applications of machine learning, such as predicting wave heights, optimizing ship design under uncertainty, and evaluating traffic in multi-port systems. Risk assessment of sea lanes and carbon emission forecasting highlight the push toward sustainable and efficient maritime engineering solutions.\\			
-			\textbf{Topic 5: Blockchain and Edge Computing in Maritime Operations.} This topic investigates the application of blockchain and edge computing technologies in maritime logistics and communication. Research focuses on blockchain-enabled vulnerability detection, data integrity, and privacy-preserving data sharing. Articles highlight innovative use cases, such as smart contracts for shipping efficiency, decentralized anomaly detection systems, and reliable communication frameworks. These technologies aim to enhance maritime transport security, efficiency, and data transparency.\\			
-			\textbf{Topic 6: Innovations and Reviews in Autonomous and Smart Shipping.} This topic reviews the state of autonomous and smart shipping technologies, exploring their implications for design, safety, and logistics. Studies analyze machine learning in sustainable ship design, the current status of MASS (Maritime Autonomous Surface Ships) technologies, and digital twins for shipboard systems. Articles also examine functional suitability assessments of smart contracts and the bibliometric review of risk and reliability in autonomous systems. These discussions highlight the transformative potential of digitalization in maritime logistics.\\			
-			\textbf{Topic 7: Digital Transformation and Sustainability in Maritime Logistics.} This topic focuses on the digitalization of maritime operations and its impact on sustainability and efficiency. Articles explore blockchain’s role in digital transformation, automation's impact on gender parity, and renewable energy adoption in seaports. The use of deep learning for vessel trajectory prediction and intelligent supervision through network analysis underscores the push for smart maritime systems. The integration of data spaces and IoT technologies highlights innovative solutions for managing logistics and maritime operations sustainably.\\			
-			\textbf{Topic 8: Maritime Industry’s Adaptation to Digital and Sustainable Practices.} This topic explores the maritime industry's response to emerging technologies and sustainability challenges. Articles examine digital transformation strategies, blockchain adoption, and risk management performance in start-ups. Studies analyze sustainability reports and explore environmental risks through a 20-year analysis of maritime accidents. Research emphasizes co-creation in operations management, addressing sustainability goals through technological and organizational innovations.\\
-			\hline
-		\end{tabular}
+			\textbf{Topic 1: Advancements in AI and Machine Learning for Maritime Applications}. This topic explores the integration of advanced AI techniques in the maritime sector, focusing on automation, situational awareness, and safety.\\			
+			\textbf{Topic 2: Spatial and Environmental Analysis in Maritime and Inland Waters}. This topic focuses on the intersection of spatial data analysis, environmental monitoring, and maritime operations.\\			
+			\textbf{Topic 3: Predictive Modeling and Risk Assessment in Maritime Operations.} This topic delves into predictive models and analytics for enhancing safety and efficiency in maritime activities.\\			
+			\textbf{Topic 4: Data-Driven Optimization in Maritime Engineering and Traffic Management.} This topic addresses the use of data-driven and AI approaches in ship design, traffic prediction, and environmental forecasting.\\			
+			\textbf{Topic 5: Blockchain and Edge Computing in Maritime Operations.} This topic investigates the application of blockchain and edge computing technologies in maritime logistics and communication.\\			
+			\textbf{Topic 6: Innovations and Reviews in Autonomous and Smart Shipping.} This topic reviews the state of autonomous and smart shipping technologies, exploring their implications for design, safety, and logistics.\\			
+			\textbf{Topic 7: Digital Transformation and Sustainability in Maritime Logistics.} This topic focuses on the digitalization of maritime operations and its impact on sustainability and efficiency.\\			
+			\textbf{Topic 8: Maritime Industry’s Adaptation to Digital and Sustainable Practices.} This topic explores the maritime industry's response to emerging technologies and sustainability challenges.\\
+			\hline			
+		\end{tabularx}
 		\label{tab:thematic}
 	\end{table}
 	
-	Next, we built words cloud for our articles. In this case, we used both title and abstract words. A first word cloud was built using all words after pre-processing them. The second word cloud was built after remoing shipping related key words. This allowed us to focus on technical key words for the second word cloud. Both word clouds were based on TF-IDF analysis and are shown in Figure \ref{fig:fig11} and Figure \ref{fig:fig12}.
+	Next, we built words cloud for our articles. In this case, we used both title and abstract words. A first word cloud was built using all words after pre-processing them. The second word cloud was built after removing shipping related key words. This allowed us to focus on technical key words for the second word cloud. Both word clouds were based on TF-IDF analysis and are shown in Figure \ref{fig:fig11} and Figure \ref{fig:fig12}.
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/wordcloud_1.eps}
+		\includegraphics[width=\linewidth]{pics/wordcloud_1.eps}
 		\caption{Word cloud based on TF-IDF}\label{fig:fig11}
 	\end{figure}
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/wordcloud_2.eps}
+		\includegraphics[width=\linewidth]{pics/wordcloud_2.eps}
 		\caption{Word cloud focused on technological terms}\label{fig:fig12}
 	\end{figure}
 	
@@ -426,7 +428,7 @@
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/main_concept_trend_toplevel.eps}
+		\includegraphics[width=\linewidth]{pics/main_concept_trend_toplevel.eps}
 		\caption{Top-level OpenAlex concept distribution over time terms}\label{fig:fig13}
 	\end{figure}
 	
@@ -434,7 +436,7 @@
 	
 	\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.8]{pics/main_concept_trend_lowerlevels.eps}
+		\includegraphics[width=\linewidth]{pics/main_concept_trend_lowerlevels.eps}
 		\caption{Detail-level OpenAlex concept distribution over time for the 10 most relevant terms}\label{fig:fig14}
 	\end{figure}
 	
