@@ -5,45 +5,45 @@ The style file: elsarticle-harv.bst
 Database file #1: dxshippingbibliography.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty journal in paulcombining
-You've used 19 entries,
+You've used 22 entries,
             2990 wiz_defined-function locations,
-            742 strings with 8699 characters,
-and the built_in function-call counts, 12213 in all, are:
-= -- 901
-> -- 494
-< -- 8
-+ -- 200
-- -- 171
-* -- 1302
-:= -- 1802
-add.period$ -- 55
-call.type$ -- 19
-change.case$ -- 152
-chr.to.int$ -- 19
-cite$ -- 20
-duplicate$ -- 939
-empty$ -- 892
-format.name$ -- 222
-if$ -- 2239
+            760 strings with 9389 characters,
+and the built_in function-call counts, 14144 in all, are:
+= -- 1040
+> -- 572
+< -- 9
++ -- 232
+- -- 198
+* -- 1513
+:= -- 2086
+add.period$ -- 64
+call.type$ -- 22
+change.case$ -- 176
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 1088
+empty$ -- 1036
+format.name$ -- 256
+if$ -- 2592
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 179
-newline$ -- 108
-num.names$ -- 76
-pop$ -- 366
+missing$ -- 208
+newline$ -- 123
+num.names$ -- 88
+pop$ -- 420
 preamble$ -- 1
-purify$ -- 133
+purify$ -- 154
 quote$ -- 0
-skip$ -- 269
+skip$ -- 310
 stack$ -- 0
-substring$ -- 475
-swap$ -- 644
+substring$ -- 553
+swap$ -- 750
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 171
+type$ -- 198
 warning$ -- 1
-while$ -- 80
+while$ -- 93
 width$ -- 0
-write$ -- 272
+write$ -- 313
 (There was 1 warning)

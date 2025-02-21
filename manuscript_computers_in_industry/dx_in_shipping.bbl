@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{22}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -85,6 +85,24 @@
   research utilizing machine learning (2009--2019)}.
 \newblock \bibinfo{journal}{International Journal of Medical Informatics}
   \bibinfo{volume}{143}, \bibinfo{pages}{104274}.
+%Type = Article
+\bibitem[{Jovi{\'c} et~al.(2022)Jovi{\'c}, Tijan, Br{\v{c}}i{\'c} and
+  Pucihar}]{jovic2022digitalization}
+\bibinfo{author}{Jovi{\'c}, M.}, \bibinfo{author}{Tijan, E.},
+  \bibinfo{author}{Br{\v{c}}i{\'c}, D.}, \bibinfo{author}{Pucihar, A.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Digitalization in maritime transport and seaports:
+  bibliometric, content and thematic analysis}.
+\newblock \bibinfo{journal}{Journal of marine science and engineering}
+  \bibinfo{volume}{10}, \bibinfo{pages}{486}.
+%Type = Article
+\bibitem[{Kern(2021)}]{kern2021digital}
+\bibinfo{author}{Kern, J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{The digital transformation of logistics: A review
+  about technologies and their implementation status}.
+\newblock \bibinfo{journal}{The digital transformation of logistics:
+  Demystifying impacts of the fourth industrial revolution} ,
+  \bibinfo{pages}{361--403}.
 %Type = Inproceedings
 \bibitem[{Liu et~al.(2021)Liu, Jiang and Liu}]{liu2021structural}
 \bibinfo{author}{Liu, P.}, \bibinfo{author}{Jiang, L.}, \bibinfo{author}{Liu,
@@ -125,6 +143,15 @@
 \newblock \bibinfo{title}{Openalex: A fully-open index of scholarly works,
   authors, venues, institutions, and concepts}.
 \newblock \bibinfo{journal}{arXiv preprint arXiv:2205.01833} .
+%Type = Article
+\bibitem[{Sanchez-Gonzalez et~al.(2019)Sanchez-Gonzalez,
+  D{\'\i}az-Guti{\'e}rrez, Leo and N{\'u}{\~n}ez-Rivas}]{sanchez2019toward}
+\bibinfo{author}{Sanchez-Gonzalez, P.L.},
+  \bibinfo{author}{D{\'\i}az-Guti{\'e}rrez, D.}, \bibinfo{author}{Leo, T.J.},
+  \bibinfo{author}{N{\'u}{\~n}ez-Rivas, L.R.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Toward digitalization of maritime transport?}
+\newblock \bibinfo{journal}{Sensors} \bibinfo{volume}{19},
+  \bibinfo{pages}{926}.
 %Type = Article
 \bibitem[{Shen et~al.(2018)Shen, Ma and Wang}]{shen2018web}
 \bibinfo{author}{Shen, Z.}, \bibinfo{author}{Ma, H.}, \bibinfo{author}{Wang,
