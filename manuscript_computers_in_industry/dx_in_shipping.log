@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.20)  21 FEB 2025 09:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.9)  26 FEB 2025 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,11 +468,11 @@ AED endfloat: Processing end Figures and Tables [16] (./dx_in_shipping.lof)
 
 ] (./dx_in_shipping.fff
 Package epstopdf Info: Source file: <pics/no_publications_year.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 234636 bytes
+(epstopdf)                    date: 2025-02-16 10:18:23
+(epstopdf)                    size: 230998 bytes
 (epstopdf)             Output file: <pics/no_publications_year-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 10:50:52
 (epstopdf)                    size: 90001 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/no_publications_year-
 eps-converted-to.pdf pics/no_publications_year.eps>
@@ -489,11 +489,11 @@ n input line 3.
 
  <./pics/no_publications_year-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/leading_authors.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 208591 bytes
+(epstopdf)                    date: 2025-02-16 10:17:37
+(epstopdf)                    size: 205122 bytes
 (epstopdf)             Output file: <pics/leading_authors-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 10:50:53
 (epstopdf)                    size: 113300 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/leading_authors-eps-c
 onverted-to.pdf pics/leading_authors.eps>
@@ -506,11 +506,11 @@ Package pdftex.def Info: pics/leading_authors-eps-converted-to.pdf  used on inp
 ut line 10.
 (pdftex.def)             Requested size: 300.97404pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/leading_institutions.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 231725 bytes
+(epstopdf)                    date: 2025-02-16 10:18:01
+(epstopdf)                    size: 227883 bytes
 (epstopdf)             Output file: <pics/leading_institutions-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 10:50:54
 (epstopdf)                    size: 129109 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/leading_institutions-
 eps-converted-to.pdf pics/leading_institutions.eps>
@@ -524,11 +524,11 @@ Package pdftex.def Info: pics/leading_institutions-eps-converted-to.pdf  used o
 n input line 11.
 (pdftex.def)             Requested size: 300.97404pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/leading_countries.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 157930 bytes
+(epstopdf)                    date: 2025-02-16 10:17:48
+(epstopdf)                    size: 155120 bytes
 (epstopdf)             Output file: <pics/leading_countries-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 10:50:55
 (epstopdf)                    size: 88062 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/leading_countries-eps
 -converted-to.pdf pics/leading_countries.eps>
@@ -547,11 +547,11 @@ nput line 12.
 -converted-to.pdf> <./pics/leading_countries-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/coauthorship_degree_distribution.eps>
 
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 121349 bytes
+(epstopdf)                    date: 2025-02-16 10:16:14
+(epstopdf)                    size: 119232 bytes
 (epstopdf)             Output file: <pics/coauthorship_degree_distribution-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 10:55:10
 (epstopdf)                    size: 21201 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_degree_d
 istribution-eps-converted-to.pdf pics/coauthorship_degree_distribution.eps>
@@ -567,11 +567,11 @@ Package pdftex.def Info: pics/coauthorship_degree_distribution-eps-converted-to
 (pdftex.def)             Requested size: 188.36977pt x 119.59818pt.
 Package epstopdf Info: Source file: <pics/coauthorship_degree_distribution_logl
 og_chart.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 158179 bytes
+(epstopdf)                    date: 2025-02-16 10:16:25
+(epstopdf)                    size: 155250 bytes
 (epstopdf)             Output file: <pics/coauthorship_degree_distribution_logl
 og_chart-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 10:55:11
 (epstopdf)                    size: 61187 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_degree_d
 istribution_loglog_chart-eps-converted-to.pdf pics/coauthorship_degree_distribu
@@ -592,11 +592,11 @@ Package pdftex.def Info: pics/coauthorship_degree_distribution_loglog_chart-eps
  <./pics/coauthorship_degree_distribution-eps-converted-to.pdf> <./pics/coautho
 rship_degree_distribution_loglog_chart-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/co-authorship_communities.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 457454 bytes
+(epstopdf)                    date: 2025-02-16 10:15:11
+(epstopdf)                    size: 450142 bytes
 (epstopdf)             Output file: <pics/co-authorship_communities-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:05:36
 (epstopdf)                    size: 169534 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/co-authorship_communi
 ties-eps-converted-to.pdf pics/co-authorship_communities.eps>
@@ -614,11 +614,11 @@ sed on input line 27.
 
  <./pics/co-authorship_communities-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/coauthorship_inst_per_partition.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 176350 bytes
+(epstopdf)                    date: 2025-02-16 10:17:15
+(epstopdf)                    size: 173417 bytes
 (epstopdf)             Output file: <pics/coauthorship_inst_per_partition-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 10:57:37
 (epstopdf)                    size: 29429 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_inst_per
 _partition-eps-converted-to.pdf pics/coauthorship_inst_per_partition.eps>
@@ -634,11 +634,11 @@ pdf  used on input line 34.
 (pdftex.def)             Requested size: 151.59692pt x 119.59818pt.
 Package epstopdf Info: Source file: <pics/coauthorship_country_per_partition.ep
 s>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 216225 bytes
+(epstopdf)                    date: 2025-02-16 10:16:02
+(epstopdf)                    size: 212767 bytes
 (epstopdf)             Output file: <pics/coauthorship_country_per_partition-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 10:57:38
 (epstopdf)                    size: 30800 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_country_
 per_partition-eps-converted-to.pdf pics/coauthorship_country_per_partition.eps>
@@ -658,11 +658,11 @@ to.pdf  used on input line 35.
  <./pics/coauthorship_inst_per_partition-eps-converted-to.pdf> <./pics/coauthor
 ship_country_per_partition-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/coauthorship_inst_chord_1.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 1341837 bytes
+(epstopdf)                    date: 2025-02-16 10:16:37
+(epstopdf)                    size: 1323455 bytes
 (epstopdf)             Output file: <pics/coauthorship_inst_chord_1-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:05:40
 (epstopdf)                    size: 445025 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_inst_cho
 rd_1-eps-converted-to.pdf pics/coauthorship_inst_chord_1.eps>
@@ -677,11 +677,11 @@ Package pdftex.def Info: pics/coauthorship_inst_chord_1-eps-converted-to.pdf  u
 sed on input line 42.
 (pdftex.def)             Requested size: 186.78178pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/coauthorship_inst_chord_2.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 1341277 bytes
+(epstopdf)                    date: 2025-02-16 10:16:50
+(epstopdf)                    size: 1322903 bytes
 (epstopdf)             Output file: <pics/coauthorship_inst_chord_2-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:05:44
 (epstopdf)                    size: 431711 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_inst_cho
 rd_2-eps-converted-to.pdf pics/coauthorship_inst_chord_2.eps>
@@ -696,11 +696,11 @@ Package pdftex.def Info: pics/coauthorship_inst_chord_2-eps-converted-to.pdf  u
 sed on input line 43.
 (pdftex.def)             Requested size: 185.07819pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/coauthorship_inst_chord_3.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 1342877 bytes
+(epstopdf)                    date: 2025-02-16 10:17:03
+(epstopdf)                    size: 1324509 bytes
 (epstopdf)             Output file: <pics/coauthorship_inst_chord_3-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:05:47
 (epstopdf)                    size: 428293 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_inst_cho
 rd_3-eps-converted-to.pdf pics/coauthorship_inst_chord_3.eps>
@@ -720,11 +720,11 @@ sed on input line 44.
 nst_chord_2-eps-converted-to.pdf> <./pics/coauthorship_inst_chord_3-eps-convert
 ed-to.pdf>]
 Package epstopdf Info: Source file: <pics/coauthorship_country_chord_1.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 975586 bytes
+(epstopdf)                    date: 2025-02-16 10:15:24
+(epstopdf)                    size: 962056 bytes
 (epstopdf)             Output file: <pics/coauthorship_country_chord_1-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:05:50
 (epstopdf)                    size: 321874 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_country_
 chord_1-eps-converted-to.pdf pics/coauthorship_country_chord_1.eps>
@@ -739,11 +739,11 @@ Package pdftex.def Info: pics/coauthorship_country_chord_1-eps-converted-to.pdf
   used on input line 51.
 (pdftex.def)             Requested size: 180.79883pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/coauthorship_country_chord_2.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 967994 bytes
+(epstopdf)                    date: 2025-02-16 10:15:37
+(epstopdf)                    size: 954556 bytes
 (epstopdf)             Output file: <pics/coauthorship_country_chord_2-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:05:52
 (epstopdf)                    size: 301756 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_country_
 chord_2-eps-converted-to.pdf pics/coauthorship_country_chord_2.eps>
@@ -758,11 +758,11 @@ Package pdftex.def Info: pics/coauthorship_country_chord_2-eps-converted-to.pdf
   used on input line 52.
 (pdftex.def)             Requested size: 184.55893pt x 179.40182pt.
 Package epstopdf Info: Source file: <pics/coauthorship_country_chord_3.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 967991 bytes
+(epstopdf)                    date: 2025-02-16 10:15:51
+(epstopdf)                    size: 954540 bytes
 (epstopdf)             Output file: <pics/coauthorship_country_chord_3-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:05:55
 (epstopdf)                    size: 301808 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/coauthorship_country_
 chord_3-eps-converted-to.pdf pics/coauthorship_country_chord_3.eps>
@@ -782,11 +782,11 @@ Package pdftex.def Info: pics/coauthorship_country_chord_3-eps-converted-to.pdf
 p_country_chord_2-eps-converted-to.pdf> <./pics/coauthorship_country_chord_3-ep
 s-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/citation_degree_distribution.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 143576 bytes
+(epstopdf)                    date: 2025-02-16 10:14:58
+(epstopdf)                    size: 141129 bytes
 (epstopdf)             Output file: <pics/citation_degree_distribution-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:09:43
 (epstopdf)                    size: 34189 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/citation_degree_distr
 ibution-eps-converted-to.pdf pics/citation_degree_distribution.eps>
@@ -802,11 +802,11 @@ Package pdftex.def Info: pics/citation_degree_distribution-eps-converted-to.pdf
 (pdftex.def)             Requested size: 190.0995pt x 119.59818pt.
 Package epstopdf Info: Source file: <pics/loglog_citation_degree_distribution.e
 ps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 159393 bytes
+(epstopdf)                    date: 2025-02-16 10:18:12
+(epstopdf)                    size: 156469 bytes
 (epstopdf)             Output file: <pics/loglog_citation_degree_distribution-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:09:44
 (epstopdf)                    size: 61290 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/loglog_citation_degre
 e_distribution-eps-converted-to.pdf pics/loglog_citation_degree_distribution.ep
@@ -826,11 +826,11 @@ Package pdftex.def Info: pics/loglog_citation_degree_distribution-eps-converted
  <./pics/citation_degree_distribution-eps-converted-to.pdf> <./pics/loglog_cita
 tion_degree_distribution-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/cocitation_communiities.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 863142 bytes
+(epstopdf)                    date: 2025-02-16 10:17:27
+(epstopdf)                    size: 850472 bytes
 (epstopdf)             Output file: <pics/cocitation_communiities-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2025-02-17 07:51:28
+(epstopdf)                    date: 2025-02-16 11:11:19
 (epstopdf)                    size: 225623 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/cocitation_communiiti
 es-eps-converted-to.pdf pics/cocitation_communiities.eps>
@@ -848,10 +848,10 @@ d on input line 68.
 
  <./pics/cocitation_communiities-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/davis_bouldin.eps>
-(epstopdf)                    date: 2025-02-17 11:01:44
-(epstopdf)                    size: 93722 bytes
+(epstopdf)                    date: 2025-02-26 18:14:02
+(epstopdf)                    size: 95597 bytes
 (epstopdf)             Output file: <pics/davis_bouldin-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-02-17 11:02:31
+(epstopdf)                    date: 2025-02-26 18:14:02
 (epstopdf)                    size: 44602 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/davis_bouldin-eps-con
 verted-to.pdf pics/davis_bouldin.eps>
@@ -864,10 +864,10 @@ Package pdftex.def Info: pics/davis_bouldin-eps-converted-to.pdf  used on input
  line 75.
 (pdftex.def)             Requested size: 151.29729pt x 119.59818pt.
 Package epstopdf Info: Source file: <pics/calinski.eps>
-(epstopdf)                    date: 2025-02-17 11:01:36
-(epstopdf)                    size: 88611 bytes
+(epstopdf)                    date: 2025-02-26 18:14:02
+(epstopdf)                    size: 90364 bytes
 (epstopdf)             Output file: <pics/calinski-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-02-17 11:01:56
+(epstopdf)                    date: 2025-02-26 18:14:02
 (epstopdf)                    size: 42114 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/calinski-eps-converte
 d-to.pdf pics/calinski.eps>
@@ -884,10 +884,10 @@ Package pdftex.def Info: pics/calinski-eps-converted-to.pdf  used on input line
  <./pics/davis_bouldin-eps-converted-to.pdf> <./pics/calinski-eps-converted-to.
 pdf>]
 Package epstopdf Info: Source file: <pics/wordcloud_1.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 596493 bytes
+(epstopdf)                    date: 2025-02-16 10:18:37
+(epstopdf)                    size: 588144 bytes
 (epstopdf)             Output file: <pics/wordcloud_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-02-17 10:23:56
+(epstopdf)                    date: 2025-02-26 18:14:03
 (epstopdf)                    size: 216376 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/wordcloud_1-eps-conve
 rted-to.pdf pics/wordcloud_1.eps>
@@ -903,10 +903,10 @@ ine 83.
 
  <./pics/wordcloud_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/wordcloud_2.eps>
-(epstopdf)                    date: 2025-02-17 07:51:28
-(epstopdf)                    size: 602380 bytes
+(epstopdf)                    date: 2025-02-16 10:18:49
+(epstopdf)                    size: 593920 bytes
 (epstopdf)             Output file: <pics/wordcloud_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-02-17 10:23:57
+(epstopdf)                    date: 2025-02-26 18:14:03
 (epstopdf)                    size: 210646 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/wordcloud_2-eps-conve
 rted-to.pdf pics/wordcloud_2.eps>
@@ -922,11 +922,11 @@ ine 90.
 
  <./pics/wordcloud_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/main_concept_trend_toplevel.eps>
-(epstopdf)                    date: 2025-02-17 11:45:48
-(epstopdf)                    size: 261157 bytes
+(epstopdf)                    date: 2025-02-26 18:14:03
+(epstopdf)                    size: 265307 bytes
 (epstopdf)             Output file: <pics/main_concept_trend_toplevel-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2025-02-17 11:46:49
+(epstopdf)                    date: 2025-02-26 18:15:30
 (epstopdf)                    size: 94347 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/main_concept_trend_to
 plevel-eps-converted-to.pdf pics/main_concept_trend_toplevel.eps>
@@ -944,11 +944,11 @@ Package pdftex.def Info: pics/main_concept_trend_toplevel-eps-converted-to.pdf
 
  <./pics/main_concept_trend_toplevel-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pics/main_concept_trend_lowerlevels.eps>
-(epstopdf)                    date: 2025-02-17 13:34:25
-(epstopdf)                    size: 207253 bytes
+(epstopdf)                    date: 2025-02-26 18:14:02
+(epstopdf)                    size: 210743 bytes
 (epstopdf)             Output file: <pics/main_concept_trend_lowerlevels-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2025-02-17 13:36:02
+(epstopdf)                    date: 2025-02-26 18:14:02
 (epstopdf)                    size: 56411 bytes
 (epstopdf)             Command: <repstopdf --outfile=pics/main_concept_trend_lo
 werlevels-eps-converted-to.pdf pics/main_concept_trend_lowerlevels.eps>
@@ -1170,19 +1170,13 @@ Underfull \hbox (badness 3861) in paragraph at lines 193--193
 ]) [40
 
 ] (./dx_in_shipping.aux)
-
-Package rerunfilecheck Warning: File `dx_in_shipping.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `dx_in_shipping.out':
-(rerunfilecheck)             Before: 9BD86D8A3D53B99D99691D3B91DCAD30;3058
-(rerunfilecheck)             After:  F11D44186194A5BE51AF8F1BB40A7728;3106.
+Package rerunfilecheck Info: File `dx_in_shipping.out' has not changed.
+(rerunfilecheck)             Checksum: F11D44186194A5BE51AF8F1BB40A7728;3106.
  ) 
 Here is how much of TeX's memory you used:
  11945 strings out of 480171
  196277 string characters out of 5894489
- 490987 words of memory out of 5000000
+ 490995 words of memory out of 5000000
  29605 multiletter control sequences out of 15000+600000
  473807 words of font info for 44 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
@@ -1198,7 +1192,7 @@ ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on dx_in_shipping.pdf (40 pages, 4123234 bytes).
+Output written on dx_in_shipping.pdf (40 pages, 4123187 bytes).
 PDF statistics:
  618 PDF objects out of 1000 (max. 8388607)
  479 compressed objects within 5 object streams
