@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -67,6 +67,16 @@
 \newblock \bibinfo{title}{Bert: Pre-training of deep bidirectional transformers
   for language understanding}.
 \newblock \bibinfo{journal}{arXiv preprint arXiv:1810.04805} .
+%Type = Inproceedings
+\bibitem[{Filippopoulos et~al.(2022)Filippopoulos, Skiadas, Violaris, Tsaknaki
+  and Kiouvrekis}]{filippopoulos2022road}
+\bibinfo{author}{Filippopoulos, I.}, \bibinfo{author}{Skiadas, C.},
+  \bibinfo{author}{Violaris, A.}, \bibinfo{author}{Tsaknaki, M.},
+  \bibinfo{author}{Kiouvrekis, Y.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Road-map for digital transformation in shipping
+  industry: a real use case}, in: \bibinfo{booktitle}{2022 IEEE Global
+  Conference on Artificial Intelligence and Internet of Things (GCAIoT)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1--6}.
 %Type = Techreport
 \bibitem[{Hagberg et~al.(2008)Hagberg, Swart and Schult}]{hagberg2008exploring}
 \bibinfo{author}{Hagberg, A.}, \bibinfo{author}{Swart, P.J.},
@@ -118,6 +128,16 @@
   and lognormal distributions}.
 \newblock \bibinfo{journal}{Internet mathematics} \bibinfo{volume}{1},
   \bibinfo{pages}{226--251}.
+%Type = Article
+\bibitem[{Munim et~al.(2020)Munim, Dushenko, Jimenez, Shakil and
+  Imset}]{munim2020big}
+\bibinfo{author}{Munim, Z.H.}, \bibinfo{author}{Dushenko, M.},
+  \bibinfo{author}{Jimenez, V.J.}, \bibinfo{author}{Shakil, M.H.},
+  \bibinfo{author}{Imset, M.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Big data and artificial intelligence in the maritime
+  industry: a bibliometric review and future research directions}.
+\newblock \bibinfo{journal}{Maritime Policy \& Management}
+  \bibinfo{volume}{47}, \bibinfo{pages}{577--597}.
 %Type = Article
 \bibitem[{Paul et~al.()Paul, Rahman, Begum, Ahmed, Chakraborty and
   Rahman}]{paulcombining}
@@ -188,5 +208,23 @@
 \newblock \bibinfo{title}{Ieee xplore digital library}.
 \newblock \bibinfo{journal}{The Charleston Advisor} \bibinfo{volume}{17},
   \bibinfo{pages}{24--30}.
+%Type = Article
+\bibitem[{Xiao et~al.(2025)Xiao, Pan and Lai}]{xiao2025application}
+\bibinfo{author}{Xiao, G.}, \bibinfo{author}{Pan, L.}, \bibinfo{author}{Lai,
+  F.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Application, opportunities, and challenges of digital
+  technologies in the decarbonizing shipping industry: a bibliometric
+  analysis}.
+\newblock \bibinfo{journal}{Frontiers in Marine Science} \bibinfo{volume}{12},
+  \bibinfo{pages}{1523267}.
+%Type = Article
+\bibitem[{Xiao et~al.(2024)Xiao, Yang, Xu, Li and Jiang}]{xiao2024application}
+\bibinfo{author}{Xiao, G.}, \bibinfo{author}{Yang, D.}, \bibinfo{author}{Xu,
+  L.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Jiang, Z.},
+  \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{The application of artificial intelligence technology
+  in shipping: A bibliometric review}.
+\newblock \bibinfo{journal}{Journal of Marine Science and Engineering}
+  \bibinfo{volume}{12}, \bibinfo{pages}{624}.
 
 \end{thebibliography}

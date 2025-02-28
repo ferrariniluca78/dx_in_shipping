@@ -36,10 +36,11 @@
 \begin{document}  % Begin the document
 	
 	\begin{abstract}
-		The shipping industry is undergoing a profound digital transformation, driven by advancements in automation, artificial intelligence, blockchain, and the Internet of Things (IoT). These technologies enhance operational efficiency, optimize supply chain management, and improve sustainability by reducing emissions and fuel consumption. However, navigating this digital revolution requires a structured understanding of emerging trends, challenges, and opportunities.
-		A network-based systematic review serves as a crucial methodological approach for researchers, enabling them to synthesize existing knowledge, identify research gaps, and develop informed strategies to leverage digital transformation effectively.
-		By critically analyzing co-citation and co-authorship networks, modeling topics over time, and performing trend analysis, we gain insights on the current status of digital transformation within the shipping industry, ultimately guiding industry stakeholders and researchers ....XXXXXXXXXXXXXx
-		Our results show that .....XXXXXXXXXXXXXXXXXXXXXX
+		This paper presents a network-based bibliometric analysis of digital transformation in the shipping industry, a sector undergoing rapid change due to advancements in automation, AI, blockchain, and IoT. The study synthesises existing knowledge to identify trends, challenges, and opportunities for industry stakeholders and researchers. Unlike previous literature reviews, this work adopts a graph theory approach applied to a large dataset of scientific publications, without predefined technological or industrial sub-domains.
+		
+		Data was collected from EBSCO, ProQuest, and IEEE eXplore, then refined using OpenAlex to comprise 2293 scientific publications. The analysis includes descriptive statistics, co-authorship network analysis, co-citation network analysis, and thematic analysis.
+				
+		The findings reveal a significant increase in publications since 2005, with exponential growth after 2015. A small percentage of authors and institutions account for a disproportionate share of publications, suggesting a skewed distribution of research efforts. The co-authorship network exhibits a heavy-tail distribution and interconnected communities, indicating extensive national and international collaboration. The co-citation analysis identifies key research areas such as fuel consumption optimisation, safety and risk management, and smart port development. Thematic analysis highlights the growing importance of AI and cybersecurity.
 	\end{abstract}
 	
 	\begin{keyword}
@@ -52,7 +53,25 @@
 	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	
 	\section{Literature Review}
-	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	Previous work has investigated the state-of-the-art of digital transformation in shipping and maritime industries. Such research varied both in methodologies, domain of applications, and limitations. In this section, we offer an overview of the most relevant published reviews, compared to our study.
+	
+	In 2019, \citep{sanchez2019toward} published a systematic literature review to cover the advances in digitizing the maritime transportation. The authors started from a large set of articles (2900): however, being an SLRs they then applied stringent filters to reduce the initial set to a far smaller one (only 99 studies). It focuses on eight specific digital domains and three industry sub-sectors. Both domains and sub-sectors were defined as input to the analysis. The authors could identify interesting research trends. However, the selection of digital domains as a-prior potentially limits the extension of their results.
+	
+	In \citep{poulis2020value}, the authors review the effects of digital transformation in a well-defined sub-domain of the maritime industry, namely that of unmanned vessels. The authors describe their work more as a conceptual paper rather than a proper SLR. In addition, their conclusions are limited to the specific sub-domain they have chosen for their analysis. Finally, covering a sub-domain which is still being discovered, the research is by definition limited to qualitative analysis.
+	
+	In the same year, a bibliometric study was published by \citep{munim2020big}. In their work, the authors applied network-based measures to investigate co-citations among 279 articles. Their bibliographic coupling analysis highlighted four key research clusters withing the domains of big data and artificial intelligence. The articles was published before the explosion of generative AI, hence their recommendations are mostly over legacy machine learning algorithms. This study is similar to ours when it comes to methodology. However, the graph analysis is applied to a limited set of pre-defined technologies.
+	
+	Another interesting work is the SLR published by \citep{tijan2021digital}. In their work, the authors set up to identify the major barriers, drivers, and successful factors for digital transformation in the maritime transport. The work is of particular interest because the authors are not focusing on pre-define technological or industry domains. Instead, their effort remains open to any possible conclusion. Their analysis highlighted the influence of blockchain and autonomous shipping technologies, and paved the way to the development of effective strategies to support successful digital transformation in the field. Being a literature review, the authors curated a limited set of 139 articles from which they drew their findings and conclusions.
+	
+	In \citep{jovic2022digitalization} the authors present a bibliometric analysis on the digitalization in both maritime transport and seaports. Being a bibliometric analysis, their methodology is similar to the one we applied in our work. Specifically, the authors apply thematic analysis to explore the state-of-the-art within the field of research, and identify key areas and gaps. Starting from over 8000 articles, the authors filtered them down to 280 for the subsequent analysis. Such filtering was done manually, hence leading to some extensive human effort. This, one side, guarantee a curated final set of articles. However, it also potentially limit the extent of the results. In addition, as any other filtering technique, it may include biases in the process. Moreover, the authors recognized some of the limitations related to the tools they used for conceptualisation of topics. The work was published before the impressive development f state-of-the-art transformer neural networks, which means the authors could not leverage modern tools such as contex-sensitive embedding systems.
+	
+	Another bibliometric study was published by \citep{xiao2024application}. Similarly to what previously mentioned for other works, this work focuses on pre-defined technological domain, specifically on the application of artificial intelligence in shipping. The work is based on a relatively larger set of articles, 476, and the methodology is similar to the one applied in our work, including the identification of influential papers, countries, and institutions. The main difference with our work is in the limited technological domain being investigated.
+	
+	A similar study is the bibliometric one by \citep{xiao2025application}. Once again, the methodology in place reflects the one we adopted as well. The number of examined publication was 201, and the focus was given to the digital transformation as a mean for decarbonizing the shipping industry.
+	
+	To conclude, we refer to the work of \citep{filippopoulos2022road}. Despite not being an SLR nor a bibliometric study, this work is of interest because it presents a road-map for digital transformation as it is applied in a real case scenario. While building their road-map, the authors analyze the state-of-the-art of digital transformation in shipping industry, suggesting relevant strategies for its successful implementation.
+	
+	In comparison to the works cited in this section, our work is rooted in graph theory, applied to a large cohort of scientific publications, and not limited by pre-defined technological or industrial sub-domains.
 	
 	\section{Research Methodology}
 	In this section we describe the methodology we followed for the data collection and analysis. Fig. [XXX] shows the overall methodology discussed in this section. Results and implications are discussed in further sections. XXXXXXX
