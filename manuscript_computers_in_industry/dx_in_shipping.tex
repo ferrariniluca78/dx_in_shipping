@@ -1,5 +1,5 @@
-%\documentclass[a4paper, review, endfloat, doubleblind, authoryear]{elsarticle}
-\documentclass[a4paper, review, endfloat, authoryear]{elsarticle}
+\documentclass[a4paper, review, endfloat, doubleblind, authoryear]{elsarticle}
+%\documentclass[a4paper, review, endfloat, authoryear]{elsarticle}
 
 % Packages (optional)
 \usepackage{amsmath}  % For mathematical symbols
@@ -36,21 +36,27 @@
 \begin{document}  % Begin the document
 	
 	\begin{abstract}
-		This paper presents a network-based bibliometric analysis of digital transformation in the shipping industry, a sector undergoing rapid change due to advancements in automation, AI, blockchain, and IoT. The study synthesises existing knowledge to identify trends, challenges, and opportunities for industry stakeholders and researchers. Unlike previous literature reviews, this work adopts a graph theory approach applied to a large dataset of scientific publications, without predefined technological or industrial sub-domains.
+		This paper presents a network-based bibliometric analysis of digital transformation in the shipping industry, a sector undergoing rapid change due to advancements in automation, AI, blockchain, and IoT. The study synthesizes existing knowledge to identify trends, challenges, and opportunities for industry stakeholders and researchers. Unlike previous literature reviews, this work adopts a graph theory approach applied to a large dataset of scientific publications, without predefined technological or industrial sub-domains.
 		
 		Data was collected from EBSCO, ProQuest, and IEEE eXplore, then refined using OpenAlex to comprise 2293 scientific publications. The analysis includes descriptive statistics, co-authorship network analysis, co-citation network analysis, and thematic analysis.
 				
-		The findings reveal a significant increase in publications since 2005, with exponential growth after 2015. A small percentage of authors and institutions account for a disproportionate share of publications, suggesting a skewed distribution of research efforts. The co-authorship network exhibits a heavy-tail distribution and interconnected communities, indicating extensive national and international collaboration. The co-citation analysis identifies key research areas such as fuel consumption optimisation, safety and risk management, and smart port development. Thematic analysis highlights the growing importance of AI and cybersecurity.
+		The findings reveal a significant increase in publications since 2005, with exponential growth after 2015. A small percentage of authors and institutions account for a disproportionate share of publications, suggesting a skewed distribution of research efforts. The co-authorship network exhibits a heavy-tail distribution and interconnected communities, indicating extensive national and international collaboration. The co-citation analysis identifies key research areas such as fuel consumption optimization, safety and risk management, and smart port development. Thematic analysis highlights the growing importance of AI and cybersecurity.
 	\end{abstract}
 	
 	\begin{keyword}
-		digital transformation \sep shipping industry \sep systematic literature review \sep complex networks
+		digital transformation \sep shipping industry \sep bibliometric analysis \sep network theory
 	\end{keyword}
 	
 	\maketitle  % Generates the title, author, and abstract section
 	
 	\section{Introduction}
-	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	Digital transformation in the shipping and maritime industries is of strategic importance. It is shaped mainly by the rapid developments in digital technologies and the increasing demands for enhanced operational efficiency, sustainability and competitiveness across the global maritime supply chain. The integration of innovative technologies in the maritime sector, including artificial intelligence (AI), machine learning (ML), blockchain, the Internet of Things (IoT), Big Data analytic, digital twins, autonomous vessels, and enhanced cybersecurity measures, has facilitated significant advancements in maritime logistics, port operations, and vessel management \citep{tijan2021digital,an2024maritime}. Maritime digital transformation aims to support decision-making in maritime operational processes, streamline fleet management tasks, enhance safety and environmental performance and reduce vessel environmental impact.
+	
+	Despite the increasing adoption of innovative technologies, the maritime sector remains a complex and fragmented domain. There are various levels of digital maturity across different maritime sub-sectors. Previous research has examined diverse aspects of maritime digital transformation, ranging from industry-wide systematic reviews to bibliometric analyses that highlight specific technological trends or research gaps. However, prior studies primarily focus on predefined technological domains or specific industrial sub-sectors, which limits their findings' scope and generalizes their research conclusions. Additionally, the methodological frameworks employed across existing studies demonstrate substantial variation, encompassing systematic literature reviews (SLRs), conceptual papers, or bibliometric network analyses. Even though each contributes uniquely to the maritime sector research, sometimes it provides isolated findings to the broader transformation of the maritime landscape \citep{lau2024maritime,ouguz2024studies}. 
+	
+	To bridge this research gap, the present study employs a network-based bibliometric analysis approach to provide a holistic perspective on the digital transformation of the shipping industry. Unlike many prior studies that categorize research into predefined technological areas, this study takes an unbiased, data-driven approach to map the broader research maritime landscape. Though a data-driven approach, the study uses graph-theoretical methods and natural language processing (NLP) to examine research trends systematically. Specifically, co-authorship and co-citation networks are analyzed using community detection algorithms and thematic clustering techniques to identify influential research clusters, collaboration patterns, and emerging topics in the field. Finally, analyzing an extensive dataset of scientific publications, this study identifies dominant research clusters, major contributing institutions, and key technological themes such as fuel efficiency, risk management, AI, and cybersecurity—providing a data-driven understanding of maritime digital transformation trends.
+	
+	The study makes three key contributions. First, it conducts a detailed bibliometric analysis of the digital transformation in the maritime industry. Second, it applies network science to define structural patterns in research collaborations and citation networks. Finally, it employs machine learning-based thematic clustering to uncover emerging research directions, offering insights into future advancements in digital shipping technologies. Through this multi-dimensional approach, the study provides a robust foundation for academia, industry professionals, and policymakers to support data-driven decisions to navigate the evolving landscape of digital transformation in the maritime sector.
 	
 	\section{Literature Review}
 	Previous work has investigated the state-of-the-art of digital transformation in shipping and maritime industries. Such research varied both in methodologies, domain of applications, and limitations. In this section, we offer an overview of the most relevant published reviews, compared to our study.
@@ -63,7 +69,7 @@
 	
 	Another interesting work is the SLR published by \citep{tijan2021digital}. In their work, the authors set up to identify the major barriers, drivers, and successful factors for digital transformation in the maritime transport. The work is of particular interest because the authors are not focusing on pre-define technological or industry domains. Instead, their effort remains open to any possible conclusion. Their analysis highlighted the influence of blockchain and autonomous shipping technologies, and paved the way to the development of effective strategies to support successful digital transformation in the field. Being a literature review, the authors curated a limited set of 139 articles from which they drew their findings and conclusions.
 	
-	In \citep{jovic2022digitalization} the authors present a bibliometric analysis on the digitalization in both maritime transport and seaports. Being a bibliometric analysis, their methodology is similar to the one we applied in our work. Specifically, the authors apply thematic analysis to explore the state-of-the-art within the field of research, and identify key areas and gaps. Starting from over 8000 articles, the authors filtered them down to 280 for the subsequent analysis. Such filtering was done manually, hence leading to some extensive human effort. This, one side, guarantee a curated final set of articles. However, it also potentially limit the extent of the results. In addition, as any other filtering technique, it may include biases in the process. Moreover, the authors recognized some of the limitations related to the tools they used for conceptualisation of topics. The work was published before the impressive development f state-of-the-art transformer neural networks, which means the authors could not leverage modern tools such as contex-sensitive embedding systems.
+	In \citep{jovic2022digitalization} the authors present a bibliometric analysis on the digitization in both maritime transport and seaports. Being a bibliometric analysis, their methodology is similar to the one we applied in our work. Specifically, the authors apply thematic analysis to explore the state-of-the-art within the field of research, and identify key areas and gaps. Starting from over 8000 articles, the authors filtered them down to 280 for the subsequent analysis. Such filtering was done manually, hence leading to some extensive human effort. This, one side, guarantee a curated final set of articles. However, it also potentially limit the extent of the results. In addition, as any other filtering technique, it may include biases in the process. Moreover, the authors recognized some of the limitations related to the tools they used for conceptualization of topics. The work was published before the impressive development f state-of-the-art transformer neural networks, which means the authors could not leverage modern tools such as context-sensitive embedding systems.
 	
 	Another bibliometric study was published by \citep{xiao2024application}. Similarly to what previously mentioned for other works, this work focuses on pre-defined technological domain, specifically on the application of artificial intelligence in shipping. The work is based on a relatively larger set of articles, 476, and the methodology is similar to the one applied in our work, including the identification of influential papers, countries, and institutions. The main difference with our work is in the limited technological domain being investigated.
 	
@@ -74,7 +80,13 @@
 	In comparison to the works cited in this section, our work is rooted in graph theory, applied to a large cohort of scientific publications, and not limited by pre-defined technological or industrial sub-domains.
 	
 	\section{Research Methodology}
-	In this section we describe the methodology we followed for the data collection and analysis. Fig. [XXX] shows the overall methodology discussed in this section. Results and implications are discussed in further sections. XXXXXXX
+	In this section we describe the methodology we followed for the data collection and analysis. Figure \ref{fig:fig0} shows the overall methodology discussed in this section, while results and implications are discussed in the upcoming sections.
+	
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=\linewidth]{pics/overall_diagram.eps}
+		\caption{Network-based bibliometric analysis diagram}\label{fig:fig0}
+	\end{figure}
 	
 	\subsection{Keyword identification and data collection}
 	We asked experts in the shipping industry to identify the most relevant keywords related to the industry itself and to digital technologies and digital transformation. Their analysis resulted in 35 keywords, listed in Table \ref{tab:keywords}.
@@ -182,7 +194,7 @@
 		\item removal of non alpha-numeric text.
 	\end{enumerate}
 	Next, we applied tokenization and embedded each title using BERT \citep{devlin2018bert}. The resulting vectors were analyzed for unsupervised clustering. More specifically, we adopted two methods to identify the ideal number of clusters: the Calinski-Harabasz index \citep{calinski1974dendrite}, and the Davies-Bouldin index \citep{davies1979cluster}.
-	Having identified the best number of zcluster, we applied the unsupervised K-means algorithm and calculated the centroid for each cluster.
+	Having identified the best number of clusters, we applied the unsupervised K-means algorithm and calculated the centroid for each cluster.
 	Next, we identified for each cluster the 10 articles closest to the corresponding centroid and applied BERTTopic to extract the common themes.
 	
 	We concluded our thematic analysis by building two word clouds. Using both titles and abstracts from all articles, we applied the TF-IDF algorithm to each word and use it as weight when building the clouds. The first cloud was built over the entire set of words in titles and abstracts, while the second cloud was built after removing all shipping related terms (hence focusing on the digital technologies only).
@@ -191,7 +203,7 @@
 	In this section we present the results of our analysis. We then discuss them in the next section.
 	
 	\subsection{Descriptive statistics}
-	Figure \ref{fig:fig1} shows the distribution of articles across years. Altough the first publications are dates as back as the 1960s, only from the year 2005 we witness an increasing interest in the effects of digital transformation within the shipping and maritime industry. The number of publication increased minimally and not steadily between 2005 and 2015. From 2015 onwards, we witness an exponential increase in the number of publications. After reaching a peak in 2023, the trend seem to have stabilized. Considering that our data was collected at the end of October 2024, we can reasonably argue that the year 2024 has not witnessed a signficant increase of publication, compared to the previous year.
+	Figure \ref{fig:fig1} shows the distribution of articles across years. Although the first publications are dates as back as the 1960s, only from the year 2005 we see an increasing interest in the effects of digital transformation within the shipping and maritime industry. The number of publication increased minimally and not steadily between 2005 and 2015. From 2015 onward, we see an exponential increase in the number of publications. After reaching a peak in 2023, the trend seem to have stabilized. Considering that our data was collected at the end of October 2024, we can reasonably argue that the year 2024 has not witnessed a significant increase of publication, compared to the previous year.
 	
 	\begin{figure}[htbp]
 		\centering
@@ -199,7 +211,7 @@
 		\caption{Distribution of publications across years}\label{fig:fig1}
 	\end{figure}
 	
-	Figures \ref{fig:fig2} show the top 20 authors, the top 20 institutes, and the top 20 countries in terms of number of publications. Considering the authors, we note how the 0.03\% of all authors in our cohort (20 out of 7723) cover over 2.9\% of the total publications, suggesting a skewed distriution of publications across authors. When looking at the top insititutes, we see they cover over 21\% of the total publications (see Table \ref{tab:resdescinst}), while the top 5 countries cover up to 50\% of total publications (see Table \ref{tab:resdesccountry}). Looking deeper into the top insitute, one can notice how many of those Universityies have strong historical bindings with the sea. Consider, as examples, the Dalian Maritime University, the Shangai Maritime Univerity, and the Delft Technical University. Similarly, looking at the most rapresentative countries one can see they all have strong maritime industry and economy.
+	Figures \ref{fig:fig2} show the top 20 authors, the top 20 institutes, and the top 20 countries in terms of number of publications. Considering the authors, we note how the 0.03\% of all authors in our cohort (20 out of 7723) cover over 2.9\% of the total publications, suggesting a skewed distribution of publications across authors. When looking at the top institutions, we see they cover over 21\% of the total publications (see Table \ref{tab:resdescinst}), while the top 5 countries cover up to 50\% of total publications (see Table \ref{tab:resdesccountry}). Looking deeper into the top institute, one can notice how many of those Universities have strong historical bindings with the sea. Consider, as examples, the Dalian Maritime University, the Shangai Maritime University, and the Delft Technical University. Similarly, looking at the most representative countries one can see they all have strong maritime industry and economy.
 	
 	\begin{figure}[htbp]
 		\centering
@@ -295,7 +307,7 @@
 		\centering
 		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_inst_per_partition.eps}
 		\includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_country_per_partition.eps}
-		\caption{Co-authorship distribution of insitutions (\textit{top}) and countries (\textit{bottom}) across partitions}\label{fig:fig5}
+		\caption{Co-authorship distribution of institutions (\textit{top}) and countries (\textit{bottom}) across partitions}\label{fig:fig5}
 	\end{figure}
 
 	\begin{figure}[htbp]
@@ -303,7 +315,7 @@
 		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_1.eps}
 		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_2.eps}
 		\includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_3.eps}
-		\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) Whuan University of Technology, (\textit{middle}) Shanghai Maritime University, and (\textit{bottom}) Dalian Maritime University}\label{fig:fig6}
+		\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) Wuhan University of Technology, (\textit{middle}) Shanghai Maritime University, and (\textit{bottom}) Dalian Maritime University}\label{fig:fig6}
 	\end{figure}
 
 	\begin{figure}[htbp]
@@ -326,7 +338,7 @@
 		\caption{Co-citation degree distribution and log-log chart} \label{fig:fig8}
 	\end{figure}
 	
-	Using the degree distribution, we identified the most influential articles (i.e. top 10 articles with the highest number of co-citation). Table \ref{tab:citationtoppapers} shows such influential works. One can see that amongh the most influential works we find SLRs and bibliometric studies, supporting the relevance of such publicaitons within the industry.
+	Using the degree distribution, we identified the most influential articles (i.e. top 10 articles with the highest number of co-citation). Table \ref{tab:citationtoppapers} shows such influential works. One can see that amongh the most influential works we find SLRs and bibliometric studies, supporting the relevance of such publications within the industry.
 	
 	\begin{table}[h]
 		\centering
@@ -385,7 +397,7 @@
 		\caption{Centrality-based topic analysis.}
 		\begin{tabularx}{\linewidth}{XXX}
 			\hline
-			OpenAlex ID & Top 5 in N centrality measures & Main topic \\
+			OpenAlex ID & Top 5 in No. of centrality measures & Main topic \\
 			\hline
 			W3041382323	& 5 & Big data and artificial intelligence\\
 			W4400493457	& 4 & Artificial intelligence, sustainable shipping, and green ports\\
@@ -452,7 +464,7 @@
 		\caption{Top-level OpenAlex concept distribution over time terms}\label{fig:fig13}
 	\end{figure}
 	
-	The predominant top-level concept over time are engineering, computer science, and business. We next focused on the second and third level of concepts of Open-Alex, limiting our search to those having as parents either engineering, computer science, or business. Among those, we selected the 10 most relevant and showed their evolution over time in a heatmap (see Figure \ref{fig:fig14}).
+	The predominant top-level concept over time are engineering, computer science, and business. We next focused on the second and third level of concepts of Open-Alex, limiting our search to those having as parents either engineering, computer science, or business. Among those, we selected the 10 most relevant and showed their evolution over time in a heat-map (see Figure \ref{fig:fig14}).
 	
 	\begin{figure}[htbp]
 		\centering
@@ -463,7 +475,7 @@
 	\section{Discussion}
 	
 	\subsection{Descriptive analysis}	
-	Our work shows a significant increase in publications related to digital transformation in the shipping industry starting from 2005, with an exponential rise after 2015. Such growth indicates a growing recognition of the importance of digital technologies in the maritime sector. However, the data from the last year (October 2024) may suggest an infection point, with the number of publication no longer increasing. Further analysis performed in the upcoming months may help validating this finding. If this was to be confirmed, then further investigation would be needed to understand the reason for such inflection: researchers could be moving to different sub-areas currently not fully identified yet, or it may as well be that financial funding for research in this sector is being reduced.
+	Our work shows a significant increase in publications related to digital transformation in the shipping industry starting from 2005, with an exponential rise after 2015. Such growth indicates a growing recognition of the importance of digital technologies in the maritime sector. However, the data from the last year (October 2024) may suggest an inflection point, with the number of publication no longer increasing. Further analysis performed in the upcoming months may help validating this finding. If this was to be confirmed, then further investigation would be needed to understand the reason for such inflection: researchers could be moving to different sub-areas currently not fully identified yet, or it may as well be that financial funding for research in this sector is being reduced.
 	
 	When analyzing the most prolific authors, we can found out that a very small percentage of all authors (approximately 0.03\%) is responsible for over 2.9\% of all publications. This finding suggests a skewed distribution of author contribution to the field, with the potential risk of limited research perspective and narrowing research venues. Ideally, one would prefer a more distributed contribution among different authors and teams. To achieve this, the industry and funding agencies should provide opportunities to less known authors to expand the horizon and outcome of their research.
 	
@@ -490,12 +502,16 @@
 	
 	The two most relevant reviews to compare our work with are those by \citep{sanchez2019toward} and \citep{jovic2022digitalization}. The first work by \citep{sanchez2019toward} is a systematic literature review covering eight main technological domain and three industry sub-sectors. Starting with approximately 3000 research papers, the authors narrow the selection down to 191 by filtering the original set through titles and abstracts. In addition to the 191 articles, the authors analyzes all the referred papers of their subset, hence adding another 23 publications to their analysis. Although similar to our work in their wide analysis of technological themes, the article is not based on network theory and does not provide holistic results across all the originally identified 3000 papers. Hence, their work is driven by the themes selected up-front, rather than identifying the most relevant themes as an output of the research. They conclude that maritime industry is moving towards digital transformation at different speeds within the different technological domains.
 	
-	The second work from \citep{jovic2022digitalization} is the closest to ours. The authors do perform a bibliometric analysis leveraging some network theory concepts. Once again, their starting point is the recognition of a scarcity of reviews at the intersection of digital transformation and the maritime and shipping industry. Starting from over 8000 journal and conference articles, the authors manually filtered their initial set to exclude some categories such as ship building and design, and surveillance. The final number of papers reduced to 280 papers used for the downstream analysis. Their bibliometric analysis focused on countries and authors (i.e., most cited authors), in addition to thematic areas. It is particularly interesting how their analysis identified artificial intelligence as a field not strongly researched. Considering that their work was published in 2022, their results are in agreement with ours. However, our analysis covers the years up to 2024 and highlights how artificial intelligence has become a dominant research field within the industry. Moreover, the authors acknowledge the limitation of manual filtering, applied to reduce the total number of articles and guarantee high relevance of the publications. If on one hand we understand the importance of article relevance, in our work we recognize the added value of a large cohort in order to identify gaps in research and get statistically more robust results. To conclude, their work does mention the use of centrality measures, but without specify which centrality was adopted, hence not allowing us to directly compare our results.
-	 
-	 
+	The second work from \citep{jovic2022digitalization} is the closest to ours. The authors do perform a bibliometric analysis leveraging some network theory concepts. Once again, their starting point is the recognition of a scarcity of reviews at the intersection of digital transformation and the maritime and shipping industry. Starting from over 8000 journal and conference articles, the authors manually filtered their initial set to exclude some categories such as ship building and design, and surveillance. The final number of papers reduced to 280 papers used for the downstream analysis. Their bibliometric analysis focused on countries and authors (i.e., most cited authors), in addition to thematic areas. It is particularly interesting how their analysis identified artificial intelligence as a field not strongly researched. Considering that their work was published in 2022, their results are in agreement with ours. However, our analysis covers the years up to 2024 and highlights how artificial intelligence has become a dominant research field within the industry. Moreover, the authors acknowledge the limitation of manual filtering, applied to reduce the total number of articles and guarantee high relevance of the publications. If on one hand we understand the importance of article relevance, in our work we recognize the added value of a large cohort in order to identify gaps in research and get statistically more robust results. To conclude, their work does mention the use of centrality measures, but without specify which centrality was adopted, hence not allowing us to directly compare our results.	 
 	
-	\section{Conclusion}
-	Summarize key findings and future work.
+	\section{Conclusion and future work}
+	This study provides a comprehensive bibliometric analysis of digital transformation research in the shipping industry. The key findings indicate a significant increase in publications since 2005, with exponential growth after 2015. However, the data from the last year suggests a possible inflection point, which requires further investigation to determine if research interest is shifting or if financial constraints are affecting the field. Additionally, the analysis of authorship patterns reveals a concentration of contributions among a small percentage of researchers, institutions, and countries, which may limit diversity in research perspectives. Encouraging broader participation through funding opportunities and institutional support could help mitigate this imbalance.
+	
+	The co-authorship network analysis highlights the presence of a highly cohesive research community with strong national and international collaborations. While this structure has facilitated knowledge sharing, the dominance of a few key hubs suggests that fostering new collaborations among underrepresented researchers and institutions could further enhance the field. Additionally, the examination of co-citation networks has identified key thematic areas of research, including fuel consumption optimization, risk management, logistics and supply chain operations, smart ports, and cybersecurity. Notably, artificial intelligence has emerged as a dominant topic, while fields like telecommunications and marketing appear to be in decline.
+	
+	A comparison with existing literature reviews confirms that previous studies have primarily focused on specific sub-fields such as maritime transportation, blockchain applications, or unmanned vessels. While these reviews provide valuable insights, they lack the holistic approach presented in this work. Compared to earlier bibliometric analyses, our findings indicate a growing emphasis on artificial intelligence, highlighting a shift in research priorities over recent years. Furthermore, our study benefits from a more comprehensive dataset, reducing the biases associated with manual filtering and enabling a broader understanding of research gaps.
+	
+	Future research should focus on validating the observed inflection point in publication trends and investigating the underlying reasons behind potential shifts in research focus. Additionally, more efforts should be directed at fostering interdisciplinary collaborations and expanding participation beyond dominant institutions and countries. Further refinement of bibliometric methodologies, including more advanced statistical validation of network structures, would also enhance our understanding of the evolution of digital transformation in the shipping industry. By addressing these areas, future studies can provide even deeper insights into the trajectory of this rapidly evolving field.
 	
 	\bibliographystyle{elsarticle-harv}
 	\bibliography{dxshippingbibliography}

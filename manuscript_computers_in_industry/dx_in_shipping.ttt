@@ -177,7 +177,7 @@ Community & Main theme \\
 \caption{Centrality-based topic analysis.}
 \begin{tabularx}{\linewidth}{XXX}
 \hline
-OpenAlex ID & Top 5 in N centrality measures & Main topic \\
+OpenAlex ID & Top 5 in No. of centrality measures & Main topic \\
 \hline
 W3041382323 & 5 & Big data and artificial intelligence\\
 W4400493457 & 4 & Artificial intelligence, sustainable shipping, and green ports\\

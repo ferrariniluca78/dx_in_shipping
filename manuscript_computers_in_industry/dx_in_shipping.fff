@@ -1,5 +1,12 @@
 \begin{figure}[htbp]
 \centering
+\includegraphics[width=\linewidth]{pics/overall_diagram.eps}
+\caption{Network-based bibliometric analysis diagram}\label{fig:fig0}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[htbp]
+\centering
 \includegraphics[width=\linewidth]{pics/no_publications_year.eps}
 \caption{Distribution of publications across years}\label{fig:fig1}
 \end{figure}
@@ -33,7 +40,7 @@
 \centering
 \includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_inst_per_partition.eps}
 \includegraphics[height=0.2\textheight, keepaspectratio]{pics/coauthorship_country_per_partition.eps}
-\caption{Co-authorship distribution of insitutions (\textit{top}) and countries (\textit{bottom}) across partitions}\label{fig:fig5}
+\caption{Co-authorship distribution of institutions (\textit{top}) and countries (\textit{bottom}) across partitions}\label{fig:fig5}
 \end{figure}
 \efloatseparator
  
@@ -42,7 +49,7 @@
 \includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_1.eps}
 \includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_2.eps}
 \includegraphics[height=0.3\textheight, keepaspectratio]{pics/coauthorship_inst_chord_3.eps}
-\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) Whuan University of Technology, (\textit{middle}) Shanghai Maritime University, and (\textit{bottom}) Dalian Maritime University}\label{fig:fig6}
+\caption{Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit{top}) Wuhan University of Technology, (\textit{middle}) Shanghai Maritime University, and (\textit{bottom}) Dalian Maritime University}\label{fig:fig6}
 \end{figure}
 \efloatseparator
  

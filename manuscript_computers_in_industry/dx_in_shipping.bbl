@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -30,6 +30,13 @@
 \newblock \bibinfo{title}{An analysis of the suitability of openalex for
   bibliometric analyses}.
 \newblock \bibinfo{journal}{arXiv preprint arXiv:2404.17663} .
+%Type = Article
+\bibitem[{An(2024)}]{an2024maritime}
+\bibinfo{author}{An, J.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Maritime logistics and digital transformation with
+  big data: review and research trend}.
+\newblock \bibinfo{journal}{Maritime Business Review} \bibinfo{volume}{9},
+  \bibinfo{pages}{229--242}.
 %Type = Article
 \bibitem[{Blondel et~al.(2008)Blondel, Guillaume, Lambiotte and
   Lefebvre}]{blondel2008fast}
@@ -113,6 +120,16 @@
 \newblock \bibinfo{journal}{The digital transformation of logistics:
   Demystifying impacts of the fourth industrial revolution} ,
   \bibinfo{pages}{361--403}.
+%Type = Article
+\bibitem[{Lau et~al.(2024)Lau, Chen, Poo, Ng and Ying}]{lau2024maritime}
+\bibinfo{author}{Lau, Y.y.}, \bibinfo{author}{Chen, Q.}, \bibinfo{author}{Poo,
+  M.C.P.}, \bibinfo{author}{Ng, A.K.}, \bibinfo{author}{Ying, C.C.},
+  \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Maritime transport resilience: A systematic
+  literature review on the current state of the art, research agenda and future
+  research directions}.
+\newblock \bibinfo{journal}{Ocean \& Coastal Management} \bibinfo{volume}{251},
+  \bibinfo{pages}{107086}.
 %Type = Inproceedings
 \bibitem[{Liu et~al.(2021)Liu, Jiang and Liu}]{liu2021structural}
 \bibinfo{author}{Liu, P.}, \bibinfo{author}{Jiang, L.}, \bibinfo{author}{Liu,
@@ -138,6 +155,14 @@
   industry: a bibliometric review and future research directions}.
 \newblock \bibinfo{journal}{Maritime Policy \& Management}
   \bibinfo{volume}{47}, \bibinfo{pages}{577--597}.
+%Type = Article
+\bibitem[{O{\u{g}}uz(2024)}]{ouguz2024studies}
+\bibinfo{author}{O{\u{g}}uz, S.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Studies on maritime transport: A bibliometric
+  analysis (2010-2023)}.
+\newblock \bibinfo{journal}{Mersin {\"U}niversitesi Denizcilik ve Lojistik
+  Ara{\c{s}}t{\i}rmalar{\i} Dergisi} \bibinfo{volume}{6},
+  \bibinfo{pages}{17--29}.
 %Type = Article
 \bibitem[{Paul et~al.()Paul, Rahman, Begum, Ahmed, Chakraborty and
   Rahman}]{paulcombining}

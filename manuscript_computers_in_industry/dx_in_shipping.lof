@@ -1,14 +1,15 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Distribution of publications across years\relax }}{20}{figure.caption.3}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Top 20 leading authors (\textit {top}), institutions (\textit {middle}), and countries (\textit {bottom})\relax }}{21}{figure.caption.4}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Co-authorship degree distribution (\textit {top}), and corresponding log-log chart (\textit {bottom})\relax }}{22}{figure.caption.5}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Co-authorship network with communities\relax }}{23}{figure.caption.6}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Co-authorship distribution of insitutions (\textit {top}) and countries (\textit {bottom}) across partitions\relax }}{24}{figure.caption.7}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit {top}) Whuan University of Technology, (\textit {middle}) Shanghai Maritime University, and (\textit {bottom}) Dalian Maritime University\relax }}{25}{figure.caption.8}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Chord diagrams for countries mapping on co-authorship communities. The three diagrams show three relevant clusters:(\textit {top}) China, (\textit {middle}) Singapore, and (\textit {bottom}) Great Britain\relax }}{26}{figure.caption.9}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Co-citation degree distribution and log-log chart\relax }}{27}{figure.caption.10}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Co-citation network with communities\relax }}{28}{figure.caption.11}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Davies-Bouldin (\text {top}) and Calinski-Harabasz (\textit {bottom}) indexes.\relax }}{29}{figure.caption.12}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Word cloud based on TF-IDF\relax }}{30}{figure.caption.13}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Word cloud focused on technological terms\relax }}{31}{figure.caption.14}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Top-level OpenAlex concept distribution over time terms\relax }}{32}{figure.caption.15}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Detail-level OpenAlex concept distribution over time for the 10 most relevant terms\relax }}{33}{figure.caption.16}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Network-based bibliometric analysis diagram\relax }}{23}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of publications across years\relax }}{24}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Top 20 leading authors (\textit {top}), institutions (\textit {middle}), and countries (\textit {bottom})\relax }}{25}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Co-authorship degree distribution (\textit {top}), and corresponding log-log chart (\textit {bottom})\relax }}{26}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Co-authorship network with communities\relax }}{27}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Co-authorship distribution of institutions (\textit {top}) and countries (\textit {bottom}) across partitions\relax }}{28}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Chord diagrams for insitution mapping on co-authorship communities. The three diagrams show three relevant clusters: (\textit {top}) Wuhan University of Technology, (\textit {middle}) Shanghai Maritime University, and (\textit {bottom}) Dalian Maritime University\relax }}{29}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Chord diagrams for countries mapping on co-authorship communities. The three diagrams show three relevant clusters:(\textit {top}) China, (\textit {middle}) Singapore, and (\textit {bottom}) Great Britain\relax }}{30}{figure.caption.10}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Co-citation degree distribution and log-log chart\relax }}{31}{figure.caption.11}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Co-citation network with communities\relax }}{32}{figure.caption.12}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Davies-Bouldin (\text {top}) and Calinski-Harabasz (\textit {bottom}) indexes.\relax }}{33}{figure.caption.13}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Word cloud based on TF-IDF\relax }}{34}{figure.caption.14}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Word cloud focused on technological terms\relax }}{35}{figure.caption.15}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Top-level OpenAlex concept distribution over time terms\relax }}{36}{figure.caption.16}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Detail-level OpenAlex concept distribution over time for the 10 most relevant terms\relax }}{37}{figure.caption.17}%
