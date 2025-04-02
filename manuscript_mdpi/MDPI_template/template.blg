@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template.aux
+The style file: Definitions/mdpi.bst
+Database file #1: dxshippingbibliography.bib
+Warning--empty journal in paulcombining
+Warning--there's a number but no volume in davies1979cluster
+You've used 29 entries,
+            2887 wiz_defined-function locations,
+            733 strings with 9854 characters,
+and the built_in function-call counts, 11510 in all, are:
+= -- 993
+> -- 679
+< -- 14
++ -- 302
+- -- 182
+* -- 966
+:= -- 1759
+add.period$ -- 88
+call.type$ -- 29
+change.case$ -- 30
+chr.to.int$ -- 29
+cite$ -- 31
+duplicate$ -- 564
+empty$ -- 939
+format.name$ -- 236
+if$ -- 2425
+int.to.chr$ -- 1
+int.to.str$ -- 29
+missing$ -- 28
+newline$ -- 147
+num.names$ -- 87
+pop$ -- 289
+preamble$ -- 0
+purify$ -- 29
+quote$ -- 0
+skip$ -- 342
+stack$ -- 0
+substring$ -- 504
+swap$ -- 132
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 203
+warning$ -- 2
+while$ -- 99
+width$ -- 0
+write$ -- 348
+(There were 2 warnings)
